@@ -1,0 +1,498 @@
+=OpenAI ChatGPT=
+=Test on Feb/20/2023=
+=All use this prompt=
+Source Task
+Procedures:
+Phase 1. 
+Step 1. Attach the CPU to the motherboard; 
+Step 2. Connect the CPU fan to the motherboard; 
+Step 3. Secure the CPU with screws.
+Phase 2. 
+Step 1. Connect the RAM to the motherboard; 
+Step 2. Secure the RAM with screws; 
+Step 3. Connect the graphics card to the motherboard.
+Phase 3. 
+Step 1. Connect the hard drive to the motherboard; 
+Step 2. Secure the hard drive with screws.
+
+Target Task: Desk assembly
+Procedures:
+
+==Test 1/3-3-3==
+Phase 1.
+Step 1. Attach the backrest to the seat of the chair using the provided screws;
+Step 2. Connect the armrests to the sides of the backrest using the provided screws;
+Step 3. Secure the armrests in place with the provided bolts.
+Phase 2.
+Step 1. Attach the base of the chair to the bottom of the seat using the provided screws;
+Step 2. Connect the wheels to the base of the chair;
+Step 3. Secure the wheels in place with the provided bolts.
+Phase 3.
+Step 1. Attach the gas lift mechanism to the center of the base of the chair;
+Step 2. Slide the chair column onto the gas lift mechanism;
+Step 3. Secure the chair column in place with the provided screws.
+
+==Test 2/4-2-3-2==
+Phase 1:
+Step 1. Lay out all the pieces of the desk according to the assembly instructions.
+Step 2. Attach the legs to the tabletop using screws provided in the assembly kit.
+Step 3. Tighten the screws with a screwdriver or drill until the legs are securely attached to the tabletop.
+Step 4. Flip the desk over so the legs are facing down.
+
+Phase 2:
+Step 1. Attach the crossbar to the legs, using screws provided in the assembly kit.
+Step 2. Tighten the screws with a screwdriver or drill until the crossbar is securely attached to the legs.
+
+Phase 3:
+Step 1. Connect the drawers to the drawer glides, following the assembly instructions.
+Step 2. Secure the drawers with screws provided in the assembly kit.
+Step 3. Attach the drawer pulls to the drawers, using screws provided in the assembly kit.
+
+Phase 4:
+Step 1. Attach any additional accessories to the desk, such as a keyboard tray or monitor arm, following the assembly instructions provided.
+Step 2. Secure the accessories with screws provided in the assembly kit.
+
+Phase 5:
+Step 1. Clean the desk with a soft cloth to remove any dust or debris.
+Step 2. Place the desk in the desired location.
+Step 3. Enjoy your newly assembled desk!
+
+==Test 3/3-3-3==
+Phase 1.
+Step 1. Lay out all the pieces of the bookcase and sort them by size and type;
+Step 2. Connect the two side panels of the bookcase together using the provided screws and a screwdriver;
+Step 3. Attach the back panel to the side panels using the provided nails or screws and a hammer or screwdriver.
+Phase 2.
+Step 1. Slide the shelves into place, ensuring they are level;
+Step 2. Secure the shelves in place by attaching the provided pegs or screws to the side panels.
+Phase 3.
+Step 1. Attach the top panel to the bookcase using the provided screws and a screwdriver;
+Step 2. If the bookcase has a bottom panel, attach it in the same way.
+Step 3. Stand the bookcase upright and adjust the level as needed.
+
+==Test 4/3-3-2==
+Phase 1.
+Step 1. Attach the headboard to the bed frame using the provided hardware;
+Step 2. Attach the footboard to the bed frame using the provided hardware;
+Step 3. Connect the bed rails to the headboard and footboard using the provided hardware.
+Phase 2.
+Step 1. Attach the support beams to the bed frame using the provided hardware;
+Step 2. Secure the support beams to the bed rails using the provided hardware;
+Step 3. Connect the slats to the support beams using the provided hardware.
+Phase 3.
+Step 1. Attach any additional features, such as a canopy or storage compartments, using the provided hardware;
+Step 2. Secure all connections and hardware to ensure stability and safety.
+
+==Test 5/3-3-3-3-3-3-3==
+Phase 1.
+Step 1. Attach the camera body frame to the base plate;
+Step 2. Connect the shutter release button to the camera body frame;
+Step 3. Secure the camera body frame and shutter release button with screws.
+Phase 2.
+Step 1. Install the image sensor onto the camera body frame;
+Step 2. Connect the image sensor to the motherboard;
+Step 3. Secure the image sensor with screws.
+Phase 3.
+Step 1. Attach the mirror and mirror assembly to the camera body frame;
+Step 2. Connect the mirror drive motor to the motherboard;
+Step 3. Secure the mirror and mirror assembly with screws.
+Phase 4.
+Step 1. Install the lens mount onto the camera body frame;
+Step 2. Connect the autofocus motor to the motherboard;
+Step 3. Secure the lens mount with screws.
+Phase 5.
+Step 1. Connect the LCD screen to the motherboard;
+Step 2. Install the viewfinder onto the camera body frame;
+Step 3. Secure the viewfinder and LCD screen with screws.
+Phase 6.
+Step 1. Connect the battery compartment to the motherboard;
+Step 2. Install the battery onto the battery compartment;
+Step 3. Secure the battery compartment with screws.
+Phase 7.
+Step 1. Attach the camera strap to the camera body frame;
+Step 2. Package the camera with necessary accessories and user manual.
+
+==Test 6/3-3-3-3==
+Phase 1.
+Step 1. Attach the projector lens to the projector body.
+Step 2. Connect the cooling fan to the projector body.
+Step 3. Secure the lens and cooling fan in place with screws.
+
+Phase 2.
+Step 1. Connect the projector bulb to the projector body.
+Step 2. Secure the bulb in place with screws.
+Step 3. Connect the power supply to the projector body.
+
+Phase 3.
+Step 1. Connect the audio input to the projector body.
+Step 2. Connect the video input to the projector body.
+Step 3. Secure all connections in place with screws.
+
+Phase 4.
+Step 1. Install the projector remote control receiver.
+Step 2. Secure the receiver in place with screws.
+Step 3. Test the projector to ensure it is functioning correctly.
+
+==Test 7/3-3-3==
+Phase 1.
+Step 1. Attach the base stand to the LED TV screen.
+Step 2. Connect the power supply board to the LED TV.
+Step 3. Connect the LED TV's internal cables and wires to the motherboard.
+
+Phase 2.
+Step 1. Install the speaker system into the LED TV casing.
+Step 2. Connect the speaker wires to the motherboard.
+Step 3. Attach the outer casing to the LED TV screen and secure it with screws.
+
+Phase 3.
+Step 1. Install the LED backlight system behind the screen.
+Step 2. Connect the LED backlight system to the power supply board.
+Step 3. Install the remote control sensor and power button on the outer casing of the LED TV.
+
+==Test 8/3-3-3==
+Phase 1.
+Step 1. Attach the lamp base to the lamp post or stand.
+Step 2. Connect the lamp holder to the lamp base.
+Step 3. Secure the lamp holder with screws.
+
+Phase 2.
+Step 1. Connect the lamp switch to the lamp holder.
+Step 2. Secure the lamp switch with screws.
+Step 3. Connect the lamp shade holder to the lamp holder.
+
+Phase 3.
+Step 1. Attach the lamp shade to the lamp shade holder.
+Step 2. Secure the lamp shade with screws, if applicable.
+Step 3. Insert the light bulb into the lamp holder and turn on the lamp to test it.
+
+==Test 9/3-3==
+Phase 1.
+Step 1. Take the ballpen cartridge and insert it into the pen barrel.
+Step 2. Attach the pen tip onto the end of the pen barrel.
+Step 3. Screw the pen clip onto the pen barrel.
+
+Phase 2.
+Step 1. Take the ink refill and remove the protective cap.
+Step 2. Insert the ink refill into the pen cartridge until it clicks into place.
+Step 3. Screw the pen cap onto the top of the pen barrel.
+
+Phase 3.
+Step 1. Test the ballpen by pressing down on the pen tip.
+Step 2. If the ink flows smoothly, the ballpen assembly is complete.
+Step 3. If the ink does not flow smoothly, disassemble the ballpen and check for any assembly errors before reassembling it.
+
+==Test 10/0-7-0==
+Step 1. Gather all necessary tools and equipment, including a blower fan assembly, screws, and a screwdriver.
+Step 2. Identify the location where the blower fan assembly will be installed.
+Step 3. Ensure the power supply is turned off and unplugged before proceeding.
+Step 4. Attach the blower fan assembly to the designated location using screws and a screwdriver.
+Step 5. Connect the power cable from the blower fan assembly to the power supply.
+Step 6. Turn on the power supply and test the blower fan to ensure it is functioning properly.
+Step 7. Secure any loose wires or cables to ensure proper cable management.
+Step 8. Once everything is properly installed and secured, turn on the device and monitor the blower fan for any abnormalities.
+
+==Test 11/3-3-3==
+Phase 1.
+Step 1. Attach the front fork to the bike frame;
+Step 2. Install the front wheel onto the fork;
+Step 3. Attach the handlebar to the fork.
+Phase 2.
+Step 1. Install the pedals onto the crank arms;
+Step 2. Insert the seat post into the bike frame;
+Step 3. Attach the saddle to the seat post.
+Phase 3.
+Step 1. Attach the rear derailleur to the bike frame;
+Step 2. Connect the chain to the chainrings and the rear derailleur;
+Step 3. Install the rear wheel onto the bike frame.
+
+==Test 12/3-3-2==
+Phase 1.
+Step 1. Remove the old transmission from the vehicle.
+Step 2. Prepare the new transmission by adding transmission fluid and connecting any necessary components.
+Step 3. Attach the torque converter to the new transmission.
+Phase 2.
+Step 1. Install the transmission mount onto the vehicle.
+Step 2. Align the new transmission with the engine and insert it into place.
+Step 3. Secure the transmission to the engine using bolts and brackets.
+Phase 3.
+Step 1. Connect the drive shaft to the new transmission and secure it with bolts.
+Step 2. Install the shift linkage and any other necessary components onto the new transmission.
+Step 3. Test the new transmission for proper operation before driving the vehicle.
+
+==Test 13/3-3-3-3==
+Phase 1.
+Step 1. Attach the keel to the hull of the sailboat;
+Step 2. Connect the rudder to the stern of the sailboat;
+Step 3. Secure the keel and rudder in place with bolts.
+
+Phase 2.
+Step 1. Install the mast on the sailboat;
+Step 2. Attach the boom to the mast;
+Step 3. Connect the shrouds and stays to the mast and hull of the sailboat.
+
+Phase 3.
+Step 1. Install the sails on the sailboat;
+Step 2. Connect the halyard to the mast and sails;
+Step 3. Secure the sheets to the sail and the cleats on the sailboat.
+
+Phase 4.
+Step 1. Install the seats and decking on the sailboat;
+Step 2. Connect the rigging to the sailboat;
+Step 3. Secure any loose ends or fixtures on the sailboat.
+
+==Test 14/3-3-3==
+Phase 1.
+Step 1. Attach the battery to the smartphone casing;
+Step 2. Connect the display screen to the smartphone casing;
+Step 3. Connect the smartphone's internal circuitry to the display screen and the battery.
+
+Phase 2.
+Step 1. Install the smartphone's camera module;
+Step 2. Connect the camera module to the smartphone's circuitry;
+Step 3. Install the speaker and microphone modules.
+
+Phase 3.
+Step 1. Install the smartphone's SIM card tray;
+Step 2. Connect the SIM card tray to the smartphone's circuitry;
+Step 3. Install the smartphone's back cover.
+
+==Test 15/3-3-3-3==
+Phase 1.
+Step 1. Attach the motor mount to the base of the assembly using screws;
+Step 2. Attach the motor to the mount using screws;
+Step 3. Connect the motor wires to the motor controller.
+
+Phase 2.
+Step 1. Attach the motor controller to the base using screws;
+Step 2. Connect the power supply wires to the motor controller;
+Step 3. Connect the motor controller to the microcontroller board.
+
+Phase 3.
+Step 1. Connect the encoder to the motor shaft;
+Step 2. Attach the encoder mount to the assembly base using screws;
+Step 3. Connect the encoder wires to the microcontroller board.
+
+Phase 4.
+Step 1. Attach the gearbox to the motor shaft using screws;
+Step 2. Secure the gearbox with the gearbox mount using screws;
+Step 3. Attach the output shaft to the gearbox.
+
+Phase 5.
+Step 1. Connect the assembly to the desired mechanical load;
+Step 2. Power on the system and test for functionality;
+Step 3. Adjust system settings as needed for optimal performance.
+
+==Test 16/3-3-2==
+Phase 1.
+Step 1. Fill the coffee maker's water tank with the desired amount of water;
+Step 2. Attach the coffee filter to the designated holder;
+Step 3. Add the desired amount of ground coffee to the filter.
+
+Phase 2.
+Step 1. Plug in the coffee maker to the power source;
+Step 2. Turn on the coffee maker by pressing the power button;
+Step 3. Wait for the coffee maker to finish brewing.
+
+Phase 3.
+Step 1. Once the coffee maker has finished brewing, carefully pour the hot coffee into a mug;
+Step 2. Add any desired additional ingredients, such as sugar or cream;
+Step 3. Enjoy the freshly brewed coffee!
+
+==Test 17/3-2-3==
+Phase 1.
+Step 1. Preheat the oven to the desired temperature;
+Step 2. Place the pizza on a baking sheet or pizza stone;
+Step 3. Place the baking sheet or pizza stone in the preheated oven.
+
+Phase 2.
+Step 1. Check the pizza frequently to make sure it is cooking evenly;
+Step 2. Rotate the pizza halfway through the cooking time for even baking.
+
+Phase 3.
+Step 1. Check the pizza for doneness by examining the crust and cheese;
+Step 2. Use a pizza peel or oven mitts to remove the pizza from the oven;
+Step 3. Let the pizza cool for a few minutes before slicing and serving.
+
+==Test 18/3-6-3==
+Preparation Phase:
+Step 1. Gather all necessary ingredients, including sushi rice, nori seaweed, sushi-grade raw fish, vegetables, and condiments such as soy sauce and wasabi.
+Step 2. Rinse the sushi rice several times with water until the water runs clear, then cook the rice according to instructions.
+Step 3. Cut the raw fish and vegetables into thin, bite-sized pieces.
+Rolling Phase:
+Step 1. Lay a sheet of nori seaweed on a sushi rolling mat or piece of plastic wrap.
+Step 2. Spread a layer of cooked rice over the nori, leaving a small border around the edges.
+Step 3. Add the raw fish and vegetables on top of the rice, arranging them evenly across the roll.
+Step 4. Roll the sushi tightly using the mat or plastic wrap, pressing down gently as you go.
+Step 5. Wet the edges of the nori with a small amount of water to seal the roll.
+Step 6. Repeat steps 1-5 until you have made as many sushi rolls as desired.
+Serving Phase:
+Step 1. Cut the sushi rolls into bite-sized pieces using a sharp knife.
+Step 2. Arrange the sushi pieces on a platter.
+Step 3. Serve with soy sauce and wasabi on the side. Enjoy!
+
+==Test 19/3-3-2==
+Phase 1.
+Step 1. Take two slices of bread and place them on a clean surface;
+Step 2. Spread a generous amount of mayonnaise or butter on each slice;
+Step 3. Add a layer of lettuce on one slice and a layer of sliced tomatoes on the other slice.
+
+Phase 2.
+Step 1. Place a few slices of your preferred meat (such as turkey or ham) on top of the lettuce;
+Step 2. Add a slice of cheese on top of the meat;
+Step 3. If desired, add additional toppings such as onions, pickles, or olives.
+
+Phase 3.
+Step 1. Put the two slices of bread together to form a sandwich;
+Step 2. Cut the sandwich in half if desired;
+Step 3. Serve and enjoy!
+
+==Test 20/0-8-0==
+Instructions:
+
+Heat about 2 inches of vegetable oil in a deep skillet or frying pan over medium-high heat.
+In a shallow bowl, mix together the flour, salt, black pepper, garlic powder, paprika, and cayenne pepper (if using).
+In another shallow bowl, whisk together the egg and milk.
+Dip each fish fillet into the egg mixture, then coat it in the flour mixture, making sure it's completely coated.
+Shake off any excess flour and carefully place the fish fillets into the hot oil.
+Fry for about 3-4 minutes on each side, or until golden brown and cooked through.
+Use a slotted spoon to remove the fish from the oil and place it on a paper towel-lined plate to drain any excess oil.
+Serve hot with your favorite dipping sauce, such as tartar sauce or ketchup.
+
+==Test 21/0-7-0
+Assuming a standard floor cleaning task, the procedures could be:
+
+Step 1. Clear the floor of any obstacles and debris;
+Step 2. Sweep the floor with a broom or vacuum cleaner to remove any remaining dirt and dust;
+Step 3. Fill a bucket with water and a suitable floor cleaning solution;
+Step 4. Dip a mop or cleaning cloth into the solution and wring it out until it is damp but not dripping;
+Step 5. Start at one end of the room and work your way towards the other, applying the cleaning solution to the floor and using the mop or cleaning cloth to scrub away any stubborn stains;
+Step 6. Rinse the mop or cleaning cloth regularly in the bucket of cleaning solution to avoid spreading dirt and grime around the floor;
+Step 7. Once you have cleaned the entire floor, rinse it thoroughly with clean water and allow it to dry completely before walking on it.
+
+==Test 22/3-3-2==
+Phase 1.
+Step 1. Clear the table of any dishes, utensils, or other items;
+Step 2. Wipe the table with a damp cloth to remove any loose debris or crumbs;
+Step 3. Use a cleaning solution and a clean cloth to thoroughly clean the surface of the table, paying special attention to any stubborn stains or sticky spots.
+
+Phase 2.
+Step 1. Wipe down any chairs or stools that were pulled up to the table;
+Step 2. Sweep or vacuum the floor around the table to remove any debris or crumbs that may have fallen;
+Step 3. Mop or clean the floor as necessary to leave it clean and free of any spills or stains.
+
+Phase 3.
+Step 1. Clean any placemats, tablecloths, or other table linens that were used during the meal;
+Step 2. Replace any items that were removed from the table, such as salt and pepper shakers, napkin holders, or centerpieces;
+Step 3. Give the table a final inspection to ensure that it is completely clean and ready for the next use.
+
+==Test 23/4-3-4==
+Phase 1.
+Step 1. Put on rubber gloves and protective eyewear.
+Step 2. Pour a toilet bowl cleaner into the toilet bowl.
+Step 3. Use a toilet brush to scrub the inside of the bowl, focusing on the stains and areas under the rim.
+Step 4. Let the cleaner sit for the recommended time, usually around 10-15 minutes.
+
+Phase 2.
+Step 1. Use a scrub brush or scouring pad to clean the outside of the toilet bowl, including the base, seat, and tank.
+Step 2. Use a cleaner and a microfiber cloth to wipe down the surfaces, removing any grime or residue.
+Step 3. Use a toothbrush or other small brush to clean hard-to-reach areas, such as the hinges and bolts.
+
+Phase 3.
+Step 1. Flush the toilet several times to rinse away the cleaner and any residue.
+Step 2. Use a clean, dry towel to wipe down the surfaces and remove any excess moisture.
+Step 3. Dispose of gloves and any used cleaning supplies properly.
+
+==Test 24/3-2-2==
+Phase 1.
+Step 1. Gather all necessary materials, including a window cleaner solution, a squeegee, a scrubber, and a cleaning cloth;
+Step 2. Remove any dust or debris from the window using a dry cloth or a vacuum cleaner;
+Step 3. Apply the window cleaner solution onto the window, and use the scrubber to gently scrub the surface of the window to remove any dirt or grime.
+Phase 2.
+Step 1. Use the squeegee to remove the cleaning solution from the window, starting from the top and working down to the bottom;
+Step 2. Wipe the blade of the squeegee with a cleaning cloth after each pass;
+Step 3. Repeat this process until the entire surface of the window has been cleaned.
+Phase 3.
+Step 1. Inspect the window for any remaining streaks or spots, and use a cleaning cloth to wipe them away;
+Step 2. Clean the window frame and sill with a damp cloth;
+Step 3. Repeat the process for any additional windows that need cleaning.
+
+==Test 25/0-7-0==
+Assuming you are using a non-stick fry pan, here are the procedures for cleaning it:
+
+Step 1. Let the fry pan cool down completely before cleaning it.
+
+Step 2. Remove any remaining food particles or debris from the fry pan using a plastic or silicone spatula. Be gentle to avoid scratching the non-stick coating.
+
+Step 3. Rinse the fry pan with hot water to remove any remaining residue.
+
+Step 4. Apply a small amount of dish soap to the fry pan and use a soft sponge or cloth to clean the inside and outside of the pan.
+
+Step 5. Rinse the fry pan thoroughly with hot water to remove all the soap suds.
+
+Step 6. Dry the fry pan with a soft towel or cloth.
+
+Step 7. Store the fry pan in a cool and dry place.
+
+==Test 26/3-3-2==
+Phase 1.
+Step 1. Locate the correct order in the warehouse inventory management system;
+Step 2. Retrieve the necessary items for the order from their designated storage location in the warehouse;
+Step 3. Place the items in a designated container or box for the order.
+Phase 2.
+Step 1. Verify that all items in the order have been retrieved and placed in the container or box;
+Step 2. Print and attach the shipping label to the container or box;
+Step 3. Move the container or box to the designated shipping area.
+Phase 3.
+Step 1. Verify that the shipping label matches the order in the warehouse inventory management system;
+Step 2. Load the container or box onto the shipping vehicle;
+Step 3. Confirm with the shipping carrier that the package has been loaded and is ready for transport.
+
+==Test 27/0-7-0==
+Procedure:
+
+Step 1. Place the item to be wrapped in the center of a sheet of wrapping paper.
+Step 2. Fold the bottom edge of the paper over the item and tuck it underneath to create a neat edge.
+Step 3. Fold the top edge of the paper over the item and use tape to secure it to the bottom edge of the paper.
+Step 4. Fold the left side of the paper over the item, creating a neat crease along the edge. Use tape to secure it to the rest of the paper.
+Step 5. Repeat step 4 with the right side of the paper.
+Step 6. If necessary, fold the corners of the wrapping paper neatly and secure them with tape.
+Step 7. Add a ribbon or bow to the package for decoration, if desired.
+
+==Test 28/3-3-3==
+Phase 1.
+Step 1. Position the forklift close to the pallet;
+Step 2. Lower the forks to the ground;
+Step 3. Drive the forklift forward until the forks are under the pallet.
+Phase 2.
+Step 1. Lift the forks with the pallet attached;
+Step 2. Tilt the forks back slightly to secure the pallet;
+Step 3. Raise the forks to a safe height for transport.
+Phase 3.
+Step 1. Drive the forklift to the desired location for the pallet;
+Step 2. Lower the forks to the ground;
+Step 3. Tilt the forks forward to release the pallet.
+
+==Test 29/3-3-3==
+Phase 1.
+Step 1. Select an appropriately sized foam insert for the packaging container;
+Step 2. Cut the foam insert to the appropriate size and shape to fit the product being packaged;
+Step 3. Place the foam insert into the bottom of the packaging container.
+Phase 2.
+Step 1. Place the product onto the foam insert;
+Step 2. If necessary, add additional foam pieces or padding to secure the product in place and prevent movement during shipping;
+Step 3. Cover the product with another piece of foam, ensuring that it is snug but not too tight.
+Phase 3.
+Step 1. Close the packaging container and shake it gently to ensure that the product is secure and there is no movement;
+Step 2. Add any necessary labeling or instructions to the packaging container;
+Step 3. Seal the packaging container with tape or other sealing materials to prevent any accidental opening during shipping.
+
+==Test 30/0-7-0==
+I'd be happy to help you with that! Here are the procedures for corrugated box folding:
+
+Step 1. Lay the corrugated box flat on a surface with the inside facing up.
+Step 2. Fold the two smaller side flaps inward towards the center of the box.
+Step 3. Fold the larger front flap downward towards the center of the box.
+Step 4. Fold the larger back flap upward towards the center of the box.
+Step 5. Tuck the front flap into the slit in the box's bottom.
+Step 6. Fold the two remaining flaps inward towards the center of the box.
+Step 7. Secure the box by applying pressure along the folds and tucking the remaining flaps into the slit in the box's top.

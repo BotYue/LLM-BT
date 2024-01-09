@@ -1,0 +1,558 @@
+=OpenAI ChatGPT=
+=Test on Feb/20/2023=
+=All use this prompt=
+Source Task
+Procedures:
+Phase 1.
+Step 1. Put car at a conveyor;
+Step 2.Lift the car.
+Phase 2.
+Step 1. Pick the wheel;
+Step 2. Approach the conveyor;
+Step 3. Align wheel with wheel hub.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+Target Task: Desktop assembly
+Procedures:
+
+==Test 1/2-3-3-3-3-3==
+Phase 1.
+Step 1. Lay out all the chair parts on a flat surface;
+Step 2. Identify the base of the chair and place it in an upright position.
+
+Phase 2.
+Step 1. Pick up the backrest and position it against the base of the chair.
+Step 2. Attach the backrest to the base of the chair using the provided screws.
+Step 3. Tighten the screws with a screwdriver until the backrest is securely attached to the base.
+
+Phase 3.
+Step 1. Pick up the seat of the chair and position it on top of the base and backrest.
+Step 2. Attach the seat to the base and backrest using the provided screws.
+Step 3. Tighten the screws with a screwdriver until the seat is securely attached to the base and backrest.
+
+Phase 4.
+Step 1. Pick up the armrests and position them on each side of the chair.
+Step 2. Attach the armrests to the base and backrest using the provided screws.
+Step 3. Tighten the screws with a screwdriver until the armrests are securely attached to the base and backrest.
+
+Phase 5.
+Step 1. Turn the chair over onto its legs.
+Step 2. Insert the wheels into the base of the chair.
+Step 3. Push down on the wheels until they snap into place.
+
+Phase 6.
+Step 1. Inspect the chair for any loose screws or parts.
+Step 2. Tighten any loose screws or parts with a screwdriver.
+Step 3. Test the chair to ensure it is stable and all parts are securely attached.
+
+==Test 2/2-3-5==
+Phase 1.
+Step 1. Gather all required parts and tools for desk assembly.
+Step 2. Lay out all parts in an organized manner.
+Phase 2.
+Step 1. Pick up the desk frame.
+Step 2. Align the legs with the corresponding holes on the frame.
+Step 3. Insert screws into the holes and fasten using a screwdriver.
+Phase 3.
+Step 1. Pick up the desktop.
+Step 2. Place the desktop onto the frame, ensuring that it is aligned properly.
+Step 3. Insert screws into the holes on the underside of the desktop and fasten using a screwdriver.
+Step 4. Turn the desk over and check for any wobbling or loose parts.
+Step 5. Add any additional accessories or components, such as drawers or keyboard trays, as needed.
+Step 6. Leave the desk and enjoy your newly assembled workspace!
+
+==Test 3/2-3-5==
+Phase 1.
+Step 1. Lay out all the bookcase parts and hardware;
+Step 2. Identify the left and right sides of the bookcase.
+Phase 2.
+Step 1. Attach the top of the bookcase to the left and right sides;
+Step 2. Attach the bottom of the bookcase to the left and right sides;
+Step 3. Attach the middle shelf to the left and right sides.
+Phase 3.
+Step 1. Insert the shelf supports into the left and right sides;
+Step 2. Place the remaining shelves on top of the shelf supports;
+Step 3. Insert screws into the holes on the left and right sides;
+Step 4. Tighten the screws with a screwdriver;
+Step 5. Stand the bookcase upright.
+
+==Test 4/2-3-3==
+Phase 1.
+Step 1. Clear the workspace and lay out all the required components for the bed assembly.
+Step 2. Position the headboard and footboard at the appropriate distance from each other.
+Phase 2.
+Step 1. Take the side rails and attach them to the headboard and footboard using the screws provided.
+Step 2. Tighten the screws securely with a screwdriver.
+Step 3. Repeat the previous two steps for the other side rail.
+Phase 3.
+Step 1. Insert the slats into the frame, making sure they are evenly spaced.
+Step 2. Secure the slats in place with the provided screws.
+Step 3. Flip the bed over and ensure that all components are securely fastened and that the bed is level.
+
+==Test 5/2-3-2==
+Phase 1.
+Step 1. Place camera body on assembly line conveyor;
+Step 2. Lift camera body with specialized tool.
+
+Phase 2.
+Step 1. Pick up lens component;
+Step 2. Bring lens component to the camera body;
+Step 3. Align lens with camera body mount.
+
+Phase 3.
+Step 1. Insert screws into designated holes on camera body and lens component;
+Step 2. Fasten screws using specialized tool;
+Step 3. Quality check completed camera and move it to the next stage of production.
+
+==Test 6/2-3-2-2-3-2==
+Phase 1.
+Step 1. Place the projector base on the assembly line;
+Step 2. Lift the projector body onto the base.
+
+Phase 2.
+Step 1. Pick up the lens assembly;
+Step 2. Approach the projector body;
+Step 3. Align the lens assembly with the projector body.
+
+Phase 3.
+Step 1. Insert screws to secure the lens assembly to the projector body;
+Step 2. Fasten screws with a screwdriver;
+Step 3. Check the lens assembly for proper alignment.
+
+Phase 4.
+Step 1. Attach the projector lamp to the projector body;
+Step 2. Connect the wiring for the lamp and lens assembly;
+Step 3. Test the projector to ensure it is functioning properly.
+
+Phase 5.
+Step 1. Install the projector cover;
+Step 2. Secure the cover with screws;
+Step 3. Label the projector with appropriate product information.
+
+Phase 6.
+Step 1. Move the completed projector to the packaging area;
+Step 2. Clean the workstation for the next assembly.
+
+==Test 7/2-3-3==
+Phase 1.
+Step 1. Place the LED panel on the assembly line conveyor.
+Step 2. Lift the LED panel to the appropriate height for assembly.
+
+Phase 2.
+Step 1. Pick up the bezel frame.
+Step 2. Move the bezel frame towards the LED panel.
+Step 3. Align the bezel frame with the edges of the LED panel.
+
+Phase 3.
+Step 1. Insert the screws into the screw holes on the bezel frame.
+Step 2. Fasten the screws securely.
+Step 3. Move the assembled LED TV away from the assembly line.
+
+==Test 8/2-3-2==
+Phase 1.
+Step 1. Place lamp base on a work surface.
+Step 2. Gather lamp components.
+Phase 2.
+Step 1. Attach lamp socket to lamp base.
+Step 2. Connect wiring to lamp socket.
+Step 3. Insert light bulb into lamp socket.
+Phase 3.
+Step 1. Attach lampshade to lamp base.
+Step 2. Secure lampshade with screws or clips.
+Step 3. Test lamp by plugging it in and turning it on.
+Step 4. Adjust lampshade or wiring as needed.
+Step 5. Package and label the finished lamp.
+
+==Test 9/2-3-3-3==
+Phase 1.
+Step 1. Place ballpen casing on assembly line conveyor.
+Step 2. Move the casing to the first assembly station.
+
+Phase 2.
+Step 1. Pick up the ink cartridge.
+Step 2. Approach the assembly line conveyor.
+Step 3. Insert the ink cartridge into the casing.
+
+Phase 3.
+Step 1. Pick up the ballpoint tip.
+Step 2. Approach the assembly line conveyor.
+Step 3. Insert the ballpoint tip into the top of the casing.
+
+Phase 4.
+Step 1. Pick up the pen cap.
+Step 2. Approach the assembly line conveyor.
+Step 3. Insert the pen cap onto the top of the casing.
+
+Phase 5.
+Step 1. Test the assembled pen for functionality.
+Step 2. If the pen functions correctly, place it in the "completed" bin.
+Step 3. If the pen does not function correctly, move it to the "repair" station.
+
+==Test 10/2-3==
+Phase 1.
+Step 1. Place blower fan housing on a worktable.
+Step 2. Retrieve blower fan blades and motor.
+Phase 2.
+Step 1. Attach blower fan blades to the motor shaft.
+Step 2. Secure the blades with screws.
+Step 3. Attach the motor to the blower fan housing.
+Phase 3.
+Step 1. Connect the motor wires to the power source.
+Step 2. Test the blower fan assembly to ensure it's functioning properly.
+Step 3. Install the assembled blower fan housing into the designated location.
+
+==Test 11/2-3-3-2-2==
+Phase 1.
+Step 1. Put bike frame on a stand;
+Step 2. Adjust stand to lift the bike frame to a comfortable working height.
+
+Phase 2.
+Step 1. Pick up the front wheel;
+Step 2. Position the front wheel onto the fork of the bike frame;
+Step 3. Tighten the bolts to secure the front wheel onto the fork.
+
+Phase 3.
+Step 1. Pick up the rear wheel;
+Step 2. Position the rear wheel onto the frame's rear dropouts;
+Step 3. Fasten the bolts to secure the rear wheel onto the frame.
+
+Phase 4.
+Step 1. Attach the handlebar to the bike frame's stem;
+Step 2. Tighten the bolts to secure the handlebar in place.
+
+Phase 5.
+Step 1. Install the pedals onto the bike frame's crank arms;
+Step 2. Tighten the pedals to secure them in place.
+
+Phase 6.
+Step 1. Inflate the tires to the recommended pressure;
+Step 2. Check the brakes and gears to ensure proper functionality;
+Step 3. Remove the bike from the stand.
+
+==Test 12/2-3-7==
+Phase 1.
+Step 1. Position transmission components at assembly station.
+Step 2. Lift the transmission.
+Phase 2.
+Step 1. Pick the clutch.
+Step 2. Approach the transmission.
+Step 3. Align clutch with input shaft.
+Phase 3.
+Step 1. Insert bolts.
+Step 2. Tighten bolts to specified torque.
+Step 3. Install release bearing.
+Step 4. Connect shift linkage.
+Step 5. Install driveshaft.
+Step 6. Lower the transmission.
+Step 7. Move the assembled vehicle to the next stage of production.
+
+==Test 13/2-3-1==
+Phase 1:
+Step 1. Place the sailboat hull on a stand or cradle.
+Step 2. Install the keel or centerboard onto the hull.
+
+Phase 2:
+Step 1. Pick up a mast and attach the standing rigging, such as shrouds and stays.
+Step 2. Approach the sailboat and insert the mast into the mast step on the hull.
+Step 3. Secure the mast with the appropriate hardware and adjust the standing rigging as necessary.
+
+Phase 3:
+Step 1. Install the sails onto the mast and secure them to the boom and/or sail tracks.
+Step 2. Check all fittings, including cleats, blocks, and shackles, to ensure they are properly installed and tightened.
+Step 3. Leave the sailboat stand or cradle and launch the boat into the water.
+
+==Test 14/2-4-4-4-4-4-4==
+Phase 1.
+Step 1. Place the smartphone body on a conveyor belt.
+Step 2. Move the conveyor belt to the next station.
+
+Phase 2.
+Step 1. Pick up the battery.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the battery with the battery slot in the smartphone body.
+Step 4. Insert the battery into the smartphone body.
+
+Phase 3.
+Step 1. Pick up the screen.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the screen with the display slot on the smartphone body.
+Step 4. Insert the screen into the display slot.
+
+Phase 4.
+Step 1. Pick up the camera module.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the camera module with the camera slot on the smartphone body.
+Step 4. Insert the camera module into the camera slot.
+
+Phase 5.
+Step 1. Pick up the back cover.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the back cover with the back of the smartphone body.
+Step 4. Press the back cover onto the smartphone body until it snaps into place.
+
+Phase 6.
+Step 1. Pick up the power button and volume buttons.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the buttons with the button slots on the smartphone body.
+Step 4. Insert the buttons into the button slots.
+
+Phase 7.
+Step 1. Pick up the SIM card tray.
+Step 2. Approach the smartphone body on the conveyor belt.
+Step 3. Align the SIM card tray with the SIM card slot on the smartphone body.
+Step 4. Insert the SIM card tray into the SIM card slot.
+
+Phase 8.
+Step 1. Test the smartphone's functionality.
+Step 2. If the smartphone is functioning correctly, package it for shipping.
+Step 3. If the smartphone is not functioning correctly, troubleshoot and repair as necessary before packaging for shipping.
+
+==Test 15/2-3-4==
+Phase 1.
+Step 1. Place the motor casing on a workbench.
+Step 2. Connect the motor shaft to a motor mount.
+Phase 2.
+Step 1. Pick up the stator assembly.
+Step 2. Align the stator assembly with the motor mount.
+Step 3. Secure the stator assembly onto the motor mount.
+Phase 3.
+Step 1. Insert the rotor into the stator assembly.
+Step 2. Connect the rotor to the motor shaft.
+Step 3. Fasten the rotor to the motor shaft.
+Step 4. Test the motor to ensure proper function.
+Step 5. Remove the motor from the workbench.
+
+==Test 16/2-3-3==
+Phase 1.
+Step 1. Fill the coffee maker with water and coffee grounds.
+Step 2. Turn on the coffee maker.
+
+Phase 2.
+Step 1. Choose a mug to use.
+Step 2. Get a filter and place it in the coffee maker.
+Step 3. Place the mug under the coffee maker.
+
+Phase 3.
+Step 1. Wait for the coffee to finish brewing.
+Step 2. Take the mug out from under the coffee maker.
+Step 3. Add any desired cream, sugar or flavors.
+Step 4. Enjoy the coffee.
+
+==Test 17/2-3-4==
+Phase 1.
+Step 1. Preheat the oven to the desired temperature.
+Step 2. Place the pizza on a baking tray.
+Phase 2.
+Step 1. Add desired toppings to the pizza.
+Step 2. Slide the baking tray with the pizza into the oven.
+Step 3. Set the timer for the recommended baking time.
+Phase 3.
+Step 1. Check the pizza regularly while it bakes.
+Step 2. Remove the pizza from the oven when it's fully cooked and the crust is golden brown.
+Step 3. Use a pizza peel or oven mitts to carefully remove the baking tray from the oven.
+Step 4. Let the pizza cool for a few minutes before slicing and serving.
+
+==Test 18/2-3-3==
+Phase 1.
+Step 1. Place sushi rice on a bamboo mat;
+Step 2. Spread the rice evenly across the mat.
+Phase 2.
+Step 1. Pick up a piece of raw fish or other desired ingredient;
+Step 2. Place the ingredient on top of the rice;
+Step 3. Roll the mat to shape the sushi.
+Phase 3.
+Step 1. Use a sharp knife to slice the sushi roll into bite-sized pieces;
+Step 2. Arrange the sushi on a plate;
+Step 3. Serve with soy sauce, wasabi, and pickled ginger.
+
+==Test 19/2-3-3==
+Phase 1.
+Step 1. Place bread on a cutting board.
+Step 2. Lift the bread slices.
+
+Phase 2.
+Step 1. Pick up the desired filling ingredients.
+Step 2. Approach the bread slices.
+Step 3. Align the ingredients on the bread slices.
+
+Phase 3.
+Step 1. Close the sandwich by placing another bread slice on top.
+Step 2. Cut the sandwich into halves or quarters.
+Step 3. Serve the sandwich on a plate.
+
+==Test 20/3-3-3==
+Phase 1.
+Step 1. Preheat oil in a deep fryer;
+Step 2. Season fish with desired seasonings;
+Step 3. Dip fish in batter.
+
+Phase 2.
+Step 1. Gently place fish in hot oil;
+Step 2. Fry fish until golden brown on one side;
+Step 3. Carefully flip fish and fry until golden brown on the other side.
+
+Phase 3.
+Step 1. Use a slotted spoon or tongs to remove fish from fryer;
+Step 2. Place fish on a paper towel-lined plate to remove excess oil;
+Step 3. Serve hot with desired garnishes or dipping sauces.
+
+==Test 21/2-3-4==
+Phase 1.
+Step 1. Clear the floor of any obstacles;
+Step 2. Turn on the floor cleaning machine.
+
+Phase 2.
+Step 1. Push the floor cleaning machine forward;
+Step 2. Move the machine in a back-and-forth motion to ensure thorough cleaning of the floor;
+Step 3. Apply additional cleaning solution to stubborn stains if necessary.
+
+Phase 3.
+Step 1. Turn off the floor cleaning machine;
+Step 2. Empty the dirty water from the machine;
+Step 3. Clean the machine and replace any used parts;
+Step 4. Store the machine in its designated area.
+
+==Test 22/2-3-3==
+Phase 1:
+Step 1. Clear off all items from the kitchen table.
+Step 2. Wipe down the table with a damp cloth to remove any loose debris or food crumbs.
+
+Phase 2:
+Step 1. Spray a cleaning solution onto the table surface.
+Step 2. Use a sponge or cloth to scrub the surface of the table, paying special attention to any stubborn spots or stains.
+Step 3. Wipe down the table with a clean, damp cloth to remove any residue from the cleaning solution.
+
+Phase 3:
+Step 1. Dry the table with a clean, dry cloth to remove any remaining moisture.
+Step 2. Replace any items that were removed from the table in Phase 1.
+Step 3. Dispose of any dirty cloths or sponges and put away cleaning supplies.
+
+==Test 23/2-4-3==
+Phase 1.
+Step 1. Put on gloves and protective gear.
+Step 2. Place cleaning supplies near the toilet.
+Phase 2.
+Step 1. Apply cleaning solution to the inside of the toilet bowl.
+Step 2. Scrub the inside of the toilet bowl with a brush.
+Step 3. Apply cleaning solution to the outside of the toilet bowl and tank.
+Step 4. Wipe the outside of the toilet bowl and tank with a cleaning cloth.
+Phase 3.
+Step 1. Use a toilet cleaner tool to clean hard-to-reach areas like under the rim.
+Step 2. Flush the toilet to rinse away the cleaning solution.
+Step 3. Dispose of gloves and cleaning supplies.
+Step 4. Wash hands thoroughly with soap and water.
+
+==Test 24/2-3-3==
+Phase 1.
+Step 1. Position the ladder securely against the building.
+Step 2. Climb up the ladder to the window level.
+
+Phase 2.
+Step 1. Prepare the cleaning solution and tools.
+Step 2. Apply the cleaning solution to the window.
+Step 3. Use a squeegee to remove the cleaning solution and dirt from the window.
+
+Phase 3.
+Step 1. Wipe the edges and corners of the window with a microfiber cloth.
+Step 2. Move to the next window and repeat the process.
+Step 3. Once all windows are cleaned, climb down the ladder and pack up the cleaning tools.
+
+==Test 25/2-4-4==
+Phase 1.
+Step 1. Turn off the stove and let the fry pan cool down.
+Step 2. Put on rubber gloves to protect your hands from hot water and cleaning agents.
+
+Phase 2.
+Step 1. Rinse the fry pan under hot running water to remove any loose food particles.
+Step 2. Apply a small amount of dishwashing liquid to a soft sponge or cloth.
+Step 3. Gently scrub the surface of the fry pan with the sponge or cloth, paying extra attention to any areas with stuck-on food.
+Step 4. Rinse the fry pan thoroughly with hot water, making sure to remove all traces of soap suds.
+
+Phase 3.
+Step 1. Check the fry pan for any remaining stains or discoloration.
+Step 2. If necessary, apply a small amount of baking soda to the surface of the fry pan and gently scrub with a soft sponge or cloth.
+Step 3. Rinse the fry pan again with hot water to remove any baking soda residue.
+Step 4. Dry the fry pan with a clean towel or let it air dry. Avoid using abrasive cleaning tools or stacking heavy objects on top of the fry pan, as this can damage the non-stick coating.
+
+==Test 26/2-2-5-2==
+Phase 1.
+Step 1. Locate the package on the shelf;
+Step 2. Remove the package from the shelf.
+
+Phase 2.
+Step 1. Check the label on the package to ensure it is the correct one;
+Step 2. Pick up the package and hold it securely.
+
+Phase 3.
+Step 1. Walk to the packing area;
+Step 2. Place the package in the appropriate box or container;
+Step 3. Seal the box or container securely;
+Step 4. Label the box or container with the appropriate information;
+Step 5. Place the box or container on the shipping cart or pallet.
+
+Phase 4.
+Step 1. Check the inventory system to ensure the package has been recorded as shipped;
+Step 2. Move the shipping cart or pallet to the appropriate loading area;
+Step 3. Load the shipping cart or pallet onto the designated truck for delivery.
+
+==Test 27/2-3-3==
+Phase 1.
+Step 1. Place item to be wrapped on a flat surface.
+Step 2. Cut out appropriate size of wrapping paper.
+Phase 2.
+Step 1. Pick up item and place it in the center of the wrapping paper.
+Step 2. Lift the sides of the wrapping paper to cover the item.
+Step 3. Fold the edges of the wrapping paper neatly.
+Phase 3.
+Step 1. Apply tape to the edges of the wrapping paper to secure it in place.
+Step 2. Add any additional decorative elements, such as a bow or ribbon.
+Step 3. Move the wrapped package to a designated area for storage or gifting.
+
+==Test 28/2-2-3==
+Phase 1.
+Step 1. Bring the forklift to the pallet;
+Step 2. Position the forklift forks under the pallet.
+Phase 2.
+Step 1. Lift the pallet off the ground;
+Step 2. Adjust the height of the forks to avoid scraping the ground.
+Phase 3.
+Step 1. Move the forklift to the desired location;
+Step 2. Lower the pallet to the ground;
+Step 3. Withdraw the forks from under the pallet.
+
+==Test 29/2-4-4==
+Phase 1:
+Step 1. Prepare packaging container.
+Step 2. Place the container on the filling station.
+
+Phase 2:
+Step 1. Activate the foam filling machine.
+Step 2. Position the foam nozzle above the container.
+Step 3. Begin filling the container with foam, starting from the bottom and moving upwards.
+Step 4. Continue filling until the foam reaches the desired level.
+
+Phase 3:
+Step 1. Turn off the foam filling machine.
+Step 2. Allow the foam to settle and expand to fill the container completely.
+Step 3. Check the foam level and add more if necessary.
+Step 4. Seal the container with a lid or cover.
+Step 5. Move the container to the designated storage area.
+
+==Test 30/3-3-3==
+Phase 1.
+Step 1. Place the flat corrugated box on a flat surface.
+Step 2. Fold in the smaller flaps on the shorter sides of the box.
+Step 3. Fold in the larger flaps on the longer sides of the box.
+
+Phase 2.
+Step 1. Fold down the front panel of the box.
+Step 2. Fold down the back panel of the box.
+Step 3. Crease the edges to create neat and sharp folds.
+
+Phase 3.
+Step 1. Fold in the two side panels of the box.
+Step 2. Tuck the small flaps into the slots on the larger flaps to secure the box.
+Step 3. Stand the box upright and ensure that it is sturdy and properly assembled.

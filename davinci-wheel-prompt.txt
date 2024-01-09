@@ -1,0 +1,468 @@
+=OpenAI Davinci=
+=Test on Feb/17/2023=
+=All use this prompt=
+Source Task
+Procedures:
+Phase 1.
+Step 1. Put car at a conveyor;
+Step 2.Lift the car.
+Phase 2.
+Step 1. Pick the wheel;
+Step 2. Approach the conveyor;
+Step 3. Align wheel with wheel hub.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+Target Task: Desktop assembly
+Procedures:
+
+==Test 1 / 2-3-3==
+Target Task: Chair assembly
+Procedures:
+Phase 1.
+Step 1. Put chair parts on the table;
+Step 2. Assemble the chair frame.
+Phase 2.
+Step 1. Attach the seat to the frame;
+Step 2. Attach the backrest to the frame;
+Step 3. Secure the seat and backrest with screws.
+Phase 3.
+Step 1. Attach the armrests to the frame;
+Step 2. Secure the armrests with screws;
+Step 3. Leave the table.
+
+==Test 2 / 2-2-4==
+Target Task: Desk assembly
+Procedures:
+Phase 1.
+Step 1. Place the desk top on the frame;
+Step 2. Secure the desk top to the frame with screws.
+Phase 2.
+Step 1. Attach the legs to the frame;
+Step 2. Secure the legs to the frame with screws.
+Phase 3.
+Step 1. Attach the drawer slides to the desk;
+Step 2. Secure the drawer slides to the desk with screws;
+Step 3. Insert the drawers into the drawer slides;
+Step 4. Secure the drawers to the drawer slides with screws.
+
+==Test 3 / 2-2-3==
+Target Task: Bookcase assembly
+Procedures:
+Phase 1.
+Step 1. Place the bookcase parts on a flat surface;
+Step 2. Assemble the sides of the bookcase.
+Phase 2.
+Step 1. Attach the back panel to the sides;
+Step 2. Secure the back panel with screws.
+Phase 3.
+Step 1. Place the shelves in the bookcase;
+Step 2. Secure the shelves with screws;
+Step 3. Leave the flat surface.
+
+==Test 4 / 2-2-3==
+Target Task: Bed assembly
+Procedures:
+Phase 1.
+Step 1. Place the bed frame on the work surface;
+Step 2. Attach the headboard to the bed frame.
+Phase 2.
+Step 1. Place the mattress on the bed frame;
+Step 2. Secure the mattress with straps.
+Phase 3.
+Step 1. Place the bedding on the mattress;
+Step 2. Secure the bedding with pins;
+Step 3. Place pillows on the bedding.
+
+==Test 5 / 2-2-3 Failure ==
+Target Task: DSLR camera manufacturing assembly
+Procedures:
+Phase 1.
+Step 1. Put DSLR camera body at a conveyor;
+Step 2. Lift the DSLR camera body.
+Phase 2.
+Step 1. Pick the lens;
+Step 2. Approach the conveyor;
+Step 3. Align lens with camera body.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 6 / 2-2-3 Failure ==
+Target Task: Projector manufacturing assembly
+Procedures:
+Phase 1.
+Step 1. Put projector at a conveyor;
+Step 2. Lift the projector.
+Phase 2.
+Step 1. Pick the lens;
+Step 2. Approach the conveyor;
+Step 3. Align lens with projector body.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 7 / 2-3-3 ==
+Target Task: LED TV manufacturing assembly
+Procedures:
+Phase 1.
+Step 1. Place the TV frame on the assembly line;
+Step 2. Connect the power cables to the frame.
+Phase 2.
+Step 1. Attach the LED panel to the frame;
+Step 2. Connect the cables to the LED panel;
+Step 3. Secure the panel with screws.
+Phase 3.
+Step 1. Install the back cover;
+Step 2. Connect the cables to the back cover;
+Step 3. Fasten the back cover with screws.
+
+==Test 8 / 2-3-3 Failure ==
+Procedures:
+Phase 1.
+Step 1. Put lamp parts on the conveyor;
+Step 2. Lift the lamp parts.
+Phase 2.
+Step 1. Pick the lamp shade;
+Step 2. Approach the conveyor;
+Step 3. Align lamp shade with lamp base.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 9 / 2-3-3==
+Procedures:
+Phase 1.
+Step 1. Put ballpen parts on the conveyor;
+Step 2. Lift the parts.
+Phase 2.
+Step 1. Pick the pen body;
+Step 2. Approach the conveyor;
+Step 3. Align pen body with pen tip.
+Phase 3.
+Step 1. Insert spring;
+Step 2. Fasten spring;
+Step 3. Leave the conveyor.
+
+==Test 10 / 2-3-3==
+Target Task: Blower fan assembly
+Procedures:
+Phase 1.
+Step 1. Put blower fan at a conveyor;
+Step 2. Lift the blower fan.
+Phase 2.
+Step 1. Pick the motor;
+Step 2. Approach the conveyor;
+Step 3. Align motor with blower fan.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 11 / 2-3-4==
+Target Task: Bike assembly
+Procedures:
+Phase 1.
+Step 1. Put bike at a conveyor;
+Step 2. Lift the bike.
+Phase 2.
+Step 1. Pick the wheel;
+Step 2. Approach the conveyor;
+Step 3. Align wheel with wheel hub.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Attach brakes;
+Step 4. Leave the conveyor.
+
+==Test 12 / 2-3-3==
+Target Task: Car transmission assembly
+Procedures:
+Phase 1.
+Step 1. Put car at a conveyor;
+Step 2. Lift the car.
+Phase 2.
+Step 1. Pick the transmission;
+Step 2. Approach the conveyor;
+Step 3. Align transmission with engine.
+Phase 3.
+Step 1. Insert bolts;
+Step 2. Fasten bolts;
+Step 3. Leave the conveyor.
+
+==Test 13/ 2-3-3==
+Target Task: Sailboat assembly
+Procedures:
+Phase 1.
+Step 1. Put sailboat at a conveyor;
+Step 2. Lift the sailboat.
+Phase 2.
+Step 1. Pick the mast;
+Step 2. Approach the conveyor;
+Step 3. Align mast with sailboat hull.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 14 / 2-3-3==
+Target Task: Smartphone assembly
+Procedures:
+Phase 1.
+Step 1. Put smartphone at a conveyor;
+Step 2. Lift the smartphone.
+Phase 2.
+Step 1. Pick the display;
+Step 2. Approach the conveyor;
+Step 3. Align display with the frame.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 15 / 2-3-3==
+Target Task: DC motor assembly
+Procedures:
+Phase 1.
+Step 1. Put DC motor at a conveyor;
+Step 2. Lift the DC motor.
+Phase 2.
+Step 1. Pick the gear;
+Step 2. Approach the conveyor;
+Step 3. Align gear with DC motor shaft.
+Phase 3.
+Step 1. Insert screws;
+Step 2. Fasten screws;
+Step 3. Leave the conveyor.
+
+==Test 16 /3-3-2 ==
+Target Task: Coffee making
+Procedures:
+Phase 1.
+Step 1. Fill the coffee machine with water;
+Step 2. Place a filter in the filter holder;
+Step 3. Put ground coffee in the filter.
+Phase 2.
+Step 1. Place the filter holder in the coffee machine;
+Step 2. Turn on the coffee machine;
+Step 3. Set the timer.
+Phase 3.
+Step 1. Wait for the coffee to brew;
+Step 2. Pour the coffee into a cup;
+Step 3. Enjoy your coffee.
+
+==Test 17/2-3-3==
+Target Task: Pizza baking
+Procedures:
+Phase 1.
+Step 1. Preheat the oven;
+Step 2. Place the pizza dough on a baking sheet.
+Phase 2.
+Step 1. Spread the pizza sauce on the dough;
+Step 2. Sprinkle the cheese and other toppings;
+Step 3. Place the baking sheet in the oven.
+Phase 3.
+Step 1. Bake for 10-15 minutes;
+Step 2. Remove the baking sheet from the oven;
+Step 3. Let the pizza cool for 5 minutes before serving.
+
+==Test 18/2-3-3==
+Target Task: Sushi making
+Procedures:
+Phase 1.
+Step 1. Gather ingredients;
+Step 2. Cut the ingredients into small pieces.
+Phase 2.
+Step 1. Place the ingredients on the sushi rice;
+Step 2. Roll the sushi with a bamboo mat;
+Step 3. Cut the sushi roll into pieces.
+Phase 3.
+Step 1. Place the sushi pieces on a plate;
+Step 2. Garnish with sesame seeds;
+Step 3. Serve the sushi.
+
+==Test 19/2-3-2==
+Target Task: Sandwich making
+Procedures:
+Phase 1.
+Step 1. Gather all the ingredients;
+Step 2. Place two slices of bread on a plate.
+Phase 2.
+Step 1. Spread butter on one slice of bread;
+Step 2. Place cheese, lettuce, and tomato on the other slice of bread;
+Step 3. Place the two slices of bread together.
+Phase 3.
+Step 1. Cut the sandwich in half;
+Step 2. Serve the sandwich.
+
+==Test 20/2-3-3==
+Target Task: Fried fish cooking
+Procedures:
+Phase 1.
+Step 1. Heat the oil in a pan;
+Step 2. Place the fish in the pan.
+Phase 2.
+Step 1. Fry the fish for 3 minutes;
+Step 2. Flip the fish over;
+Step 3. Fry for another 3 minutes.
+Phase 3.
+Step 1. Remove the fish from the pan;
+Step 2. Place on a plate;
+Step 3. Serve with desired condiments.
+
+==Test 21/2-3-2==
+Target Task: Floor cleaning cooking
+Procedures:
+Phase 1.
+Step 1. Gather cleaning supplies;
+Step 2. Vacuum the floor.
+Phase 2.
+Step 1. Mop the floor;
+Step 2. Rinse the mop;
+Step 3. Wring out the mop.
+Phase 3.
+Step 1. Dry the floor with a towel;
+Step 2. Put away the cleaning supplies;
+Step 3. Inspect the floor for any missed spots.
+
+==Test 22/2-3-3==
+Target Task: Kitchen table cleaning
+Procedures:
+Phase 1.
+Step 1. Gather cleaning supplies;
+Step 2. Vacuum the table surface.
+Phase 2.
+Step 1. Apply cleaning solution to the table surface;
+Step 2. Wipe the table surface with a damp cloth;
+Step 3. Rinse the cloth and wipe the table surface again.
+Phase 3.
+Step 1. Dry the table surface with a clean cloth;
+Step 2. Polish the table surface with a dry cloth;
+Step 3. Put away the cleaning supplies.
+
+==Test 23/2-3-3==
+Target Task:  Toilet cleaning 
+Procedures:
+Phase 1.
+Step 1. Gather necessary cleaning supplies;
+Step 2. Put on protective gloves.
+Phase 2.
+Step 1. Remove any visible debris;
+Step 2. Apply cleaning solution to the toilet bowl;
+Step 3. Scrub the toilet bowl with a brush.
+Phase 3.
+Step 1. Flush the toilet;
+Step 2. Wipe down the exterior of the toilet;
+Step 3. Dispose of cleaning supplies and gloves.
+
+==Test 24/2-3-2==
+Target Task: Window cleaning 
+Procedures:
+Phase 1.
+Step 1. Gather necessary materials;
+Step 2. Prepare the area;
+Step 3. Put on safety gear.
+Phase 2.
+Step 1. Spray window cleaner;
+Step 2. Wipe the window with a cloth;
+Step 3. Rinse the window with water.
+Phase 3.
+Step 1. Dry the window with a cloth;
+Step 2. Inspect the window for any streaks;
+Step 3. Remove safety gear.
+
+==Test 25/2-3-4==
+Target Task: Fry pan cleaning 
+Procedures:
+Phase 1.
+Step 1. Put the fry pan on the stove;
+Step 2. Turn on the stove.
+Phase 2.
+Step 1. Pour water into the fry pan;
+Step 2. Add dishwashing liquid;
+Step 3. Let it boil for 5 minutes.
+Phase 3.
+Step 1. Take off the stove;
+Step 2. Scrub the pan with a sponge;
+Step 3. Rinse with warm water;
+Step 4. Dry with a clean cloth.
+
+==Test 26/2-2-3==
+Target Task: Warehouse package picking
+Procedures:
+Phase 1.
+Step 1. Retrieve the package from the shelf;
+Step 2. Place the package on the conveyor belt.
+Phase 2.
+Step 1. Scan the package barcode;
+Step 2. Place the package in the designated area.
+Phase 3.
+Step 1. Record the package information;
+Step 2. Place the package in the shipping container;
+Step 3. Seal the shipping container.
+
+==Test 27/2-3-3==
+Target Task: Package wrapping
+Procedures:
+Phase 1.
+Step 1. Place the package on the conveyor belt;
+Step 2. Activate the conveyor belt.
+Phase 2.
+Step 1. Pick up the wrapping paper;
+Step 2. Place the wrapping paper around the package;
+Step 3. Secure the wrapping paper with tape.
+Phase 3.
+Step 1. Place the package on a pallet;
+Step 2. Secure the package with straps;
+Step 3. Leave the conveyor belt.
+
+==Test 28/2-3-3==
+Target Task: Forklift palleting
+Procedures:
+Phase 1.
+Step 1. Put pallet on the forklift;
+Step 2. Lift the pallet.
+Phase 2.
+Step 1. Approach the pallet stack;
+Step 2. Align the forks with the pallet;
+Step 3. Lift the pallet off the stack.
+Phase 3.
+Step 1. Move the pallet to the desired location;
+Step 2. Lower the pallet onto the ground;
+Step 3. Leave the area.
+
+==Test 29/2-3-3==
+Target Task: Package foam filling
+Procedures:
+Phase 1.
+Step 1. Put package on the conveyor;
+Step 2. Lift the package.
+Phase 2.
+Step 1. Pick foam filling;
+Step 2. Approach the conveyor;
+Step 3. Place foam filling into the package.
+Phase 3.
+Step 1. Close the package;
+Step 2. Secure the package with tape;
+Step 3. Leave the conveyor.
+
+
+==Test 30/2-3-3==
+Target Task: Corrugated box folding
+Procedures:
+Phase 1.
+Step 1. Place the corrugated box on a flat surface;
+Step 2. Open the flaps of the box.
+Phase 2.
+Step 1. Fold the side flaps inward;
+Step 2. Fold the top and bottom flaps inward;
+Step 3. Secure the flaps with tape.
+Phase 3.
+Step 1. Place the box on a conveyor belt;
+Step 2. Move the box along the conveyor belt;
+Step 3. Remove the box from the conveyor belt.

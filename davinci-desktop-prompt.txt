@@ -1,0 +1,501 @@
+=OpenAI Davinci=
+=Test on Feb/17/2023=
+=All use this prompt=
+Source Task
+Procedures:
+Phase 1. 
+Step 1. Attach the CPU to the motherboard; 
+Step 2. Connect the CPU fan to the motherboard; 
+Step 3. Secure the CPU with screws.
+Phase 2. 
+Step 1. Connect the RAM to the motherboard; 
+Step 2. Secure the RAM with screws; 
+Step 3. Connect the graphics card to the motherboard.
+Phase 3. 
+Step 1. Connect the hard drive to the motherboard; 
+Step 2. Secure the hard drive with screws.
+
+Target Task: Desk assembly
+Procedures:
+
+==Test 1 / 3-3-3==
+Target Task: Chair assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the legs to the seat; 
+Step 2. Secure the legs with screws; 
+Step 3. Connect the backrest to the seat.
+Phase 2. 
+Step 1. Connect the armrests to the seat; 
+Step 2. Secure the armrests with screws; 
+Step 3. Connect the backrest to the armrests.
+Phase 3. 
+Step 1. Attach the cushion to the seat; 
+Step 2. Secure the cushion with screws; 
+Step 3. Connect the backrest to the cushion.
+
+==Test 2 / 3-3-3==
+Target Task: Desk assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the desk legs to the desktop; 
+Step 2. Secure the legs with screws; 
+Step 3. Connect the support beams to the legs.
+Phase 2. 
+Step 1. Connect the drawer slides to the desk; 
+Step 2. Secure the drawer slides with screws; 
+Step 3. Attach the drawers to the drawer slides.
+Phase 3. 
+Step 1. Connect the handles to the drawers; 
+Step 2. Secure the handles with screws; 
+Step 3. Attach the knobs to the drawers.
+
+==Test 3 / 3-3-3==
+Target Task: Bookcase assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the side panels to the back panel; 
+Step 2. Secure the side panels with screws; 
+Step 3. Attach the top and bottom panels to the back panel.
+Phase 2. 
+Step 1. Connect the shelves to the side panels; 
+Step 2. Secure the shelves with screws; 
+Step 3. Attach the doors to the side panels.
+Phase 3. 
+Step 1. Connect the handles to the doors; 
+Step 2. Secure the handles with screws; 
+Step 3. Attach the feet to the bottom panel.
+
+==Test 4 / 3-3-3==
+
+Target Task: Bed assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the headboard to the bed frame; 
+Step 2. Secure the headboard with screws; 
+Step 3. Connect the footboard to the bed frame.
+Phase 2. 
+Step 1. Connect the side rails to the bed frame; 
+Step 2. Secure the side rails with screws; 
+Step 3. Attach the slats to the bed frame.
+Phase 3. 
+Step 1. Place the mattress on the bed frame; 
+Step 2. Secure the mattress with straps; 
+Step 3. Place the bedding on the mattress.
+
+==Test 5 / 3-3-3 ==
+
+Target Task: DSLR camera manufacturing assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the lens mount to the camera body; 
+Step 2. Secure the lens mount with screws; 
+Step 3. Connect the viewfinder to the camera body.
+Phase 2. 
+Step 1. Connect the shutter mechanism to the camera body; 
+Step 2. Secure the shutter mechanism with screws; 
+Step 3. Connect the image sensor to the camera body.
+Phase 3. 
+Step 1. Connect the LCD display to the camera body; 
+Step 2. Secure the LCD display with screws; 
+Step 3. Connect the battery compartment to the camera body.
+
+==Test 6 / 3-3-2==
+
+Target Task: Projector manufacturing assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the projector lens to the projector body; 
+Step 2. Connect the projector fan to the projector body; 
+Step 3. Secure the lens with screws.
+Phase 2. 
+Step 1. Connect the projector lamp to the projector body; 
+Step 2. Secure the lamp with screws; 
+Step 3. Connect the circuit board to the projector body.
+Phase 3. 
+Step 1. Connect the power cord to the projector body; 
+Step 2. Secure the power cord with screws.
+
+==Test 7 / 3-3-3 ==
+Target Task: LED TV manufacturing assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the display panel to the frame; 
+Step 2. Connect the display panel to the power supply; 
+Step 3. Secure the display panel with screws.
+Phase 2. 
+Step 1. Connect the main board to the frame; 
+Step 2. Secure the main board with screws; 
+Step 3. Connect the speakers to the main board.
+Phase 3. 
+Step 1. Connect the cables to the main board; 
+Step 2. Secure the cables with clips; 
+Step 3. Connect the remote control receiver to the main board.
+
+==Test 8 / 3-3-3==
+Target Task: Lamp assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the lamp base to the lamp stand; 
+Step 2. Secure the lamp base with screws; 
+Step 3. Connect the electrical cord to the lamp base.
+Phase 2. 
+Step 1. Connect the light bulb to the lamp base; 
+Step 2. Secure the light bulb with screws; 
+Step 3. Connect the switch to the electrical cord.
+Phase 3. 
+Step 1. Attach the lamp shade to the lamp stand; 
+Step 2. Secure the lamp shade with screws; 
+Step 3. Connect the finial to the top of the lamp shade.
+
+
+==Test 9/3-3-3==
+Target Task: Ballpen assembly
+Procedures:
+Phase 1. 
+Step 1. Insert the ink cartridge into the barrel of the ballpen; 
+Step 2. Secure the ink cartridge with a spring; 
+Step 3. Attach the tip of the ballpen to the barrel.
+Phase 2. 
+Step 1. Insert the clip into the barrel of the ballpen; 
+Step 2. Secure the clip with a spring; 
+Step 3. Attach the cap to the barrel of the ballpen.
+Phase 3. 
+Step 1. Insert the plunger into the barrel of the ballpen; 
+Step 2. Secure the plunger with a spring; 
+Step 3. Attach the end cap to the barrel of the ballpen.
+
+==Test 10/3-3-3==
+Target Task: Blower fan assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the blower fan to the housing; 
+Step 2. Secure the blower fan with screws; 
+Step 3. Connect the power cable to the blower fan.
+Phase 2. 
+Step 1. Connect the air intake to the housing; 
+Step 2. Secure the air intake with screws; 
+Step 3. Connect the air outlet to the housing.
+Phase 3. 
+Step 1. Connect the air filter to the housing; 
+Step 2. Secure the air filter with screws; 
+Step 3. Connect the air filter to the blower fan.
+
+==Test 11/3-3-3==
+Target Task: Bike assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the handlebars to the frame; 
+Step 2. Secure the handlebars with screws; 
+Step 3. Connect the brakes to the frame.
+Phase 2. 
+Step 1. Connect the pedals to the frame; 
+Step 2. Secure the pedals with screws; 
+Step 3. Connect the chain to the frame.
+Phase 3. 
+Step 1. Connect the seat to the frame; 
+Step 2. Secure the seat with screws; 
+Step 3. Connect the wheels to the frame.
+
+==Test 12/3-3-3==
+Target Task: Car transmission assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the transmission housing to the engine; 
+Step 2. Connect the transmission shaft to the engine; 
+Step 3. Secure the transmission housing with bolts.
+Phase 2. 
+Step 1. Connect the transmission gears to the transmission shaft; 
+Step 2. Secure the transmission gears with bolts; 
+Step 3. Connect the transmission linkage to the transmission gears.
+Phase 3. 
+Step 1. Connect the transmission fluid lines to the transmission housing; 
+Step 2. Secure the transmission fluid lines with clamps; 
+Step 3. Connect the transmission selector cable to the transmission linkage.
+
+==Test 13/3-3-3==
+Target Task: Sailboat assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the mast to the hull; 
+Step 2. Connect the boom to the mast; 
+Step 3. Secure the mast with screws.
+Phase 2. 
+Step 1. Connect the sails to the boom; 
+Step 2. Secure the sails with ropes; 
+Step 3. Connect the rudder to the hull.
+Phase 3. 
+Step 1. Connect the keel to the hull; 
+Step 2. Secure the keel with bolts; 
+Step 3. Connect the rigging to the mast.
+
+==Test 14/2-3-3==
+Target Task: Smartphone assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the display to the frame; 
+Step 2. Connect the display ribbon cable to the motherboard; 
+Step 3. Secure the display with screws.
+Phase 2. 
+Step 1. Connect the battery to the frame; 
+Step 2. Secure the battery with adhesive; 
+Step 3. Connect the camera ribbon cable to the motherboard.
+Phase 3. 
+Step 1. Connect the speaker to the frame; 
+Step 2. Secure the speaker with adhesive; 
+Step 3. Connect the microphone ribbon cable to the motherboard.
+
+==Test 15/ 3-3-3==
+Target Task: DC motor assembly
+Procedures:
+Phase 1. 
+Step 1. Attach the DC motor to the mounting bracket; 
+Step 2. Connect the power wires to the motor; 
+Step 3. Secure the motor with screws.
+Phase 2. 
+Step 1. Connect the control wires to the motor; 
+Step 2. Secure the wires with cable ties; 
+Step 3. Connect the encoder to the motor.
+Phase 3. 
+Step 1. Connect the gearbox to the motor; 
+Step 2. Secure the gearbox with screws; 
+Step 3. Connect the shaft coupler to the motor.
+
+==Test 16/3-3-3==
+Target Task: Coffee making
+Procedures:
+Phase 1. 
+Step 1. Fill the coffee pot with water; 
+Step 2. Place the coffee filter in the filter holder; 
+Step 3. Measure out the desired amount of coffee grounds.
+Phase 2. 
+Step 1. Place the filter holder in the coffee pot; 
+Step 2. Place the coffee pot on the heating element; 
+Step 3. Turn on the heating element.
+Phase 3. 
+Step 1. Wait for the coffee to finish brewing; 
+Step 2. Turn off the heating element; 
+Step 3. Pour the coffee into a mug and enjoy!
+
+==Test 17/3-3-3==
+Target Task: Pizza baking
+Procedures:
+Phase 1. 
+Step 1. Preheat the oven to the desired temperature; 
+Step 2. Grease the baking pan; 
+Step 3. Roll out the pizza dough and place it in the pan.
+Phase 2. 
+Step 1. Spread the pizza sauce on the dough; 
+Step 2. Sprinkle the desired toppings on the pizza; 
+Step 3. Sprinkle cheese on top of the pizza.
+Phase 3. 
+Step 1. Place the pizza in the preheated oven; 
+Step 2. Bake for 15-20 minutes or until the cheese is melted and bubbly; 
+Step 3. Remove from oven and let cool before serving.
+
+==Test 18/3-3-3==
+Target Task: Sushi making
+Procedures:
+Phase 1. 
+Step 1. Gather the ingredients; 
+Step 2. Cut the ingredients into small pieces; 
+Step 3. Place the ingredients in a bowl.
+Phase 2. 
+Step 1. Spread a sheet of nori on a sushi mat; 
+Step 2. Place the ingredients on the nori; 
+Step 3. Roll the sushi mat to form a roll.
+Phase 3. 
+Step 1. Cut the roll into small pieces; 
+Step 2. Arrange the pieces on a plate; 
+Step 3. Garnish with sesame seeds and wasabi, if desired.
+
+==Test 19/3-3-2==
+Target Task: Sandwich making
+Procedures:
+Phase 1. 
+Step 1. Spread butter on one side of the bread; 
+Step 2. Place the bread butter-side down on a plate; 
+Step 3. Spread mayonnaise on the other side of the bread.
+Phase 2. 
+Step 1. Place lettuce, tomato, and onion slices on the bread; 
+Step 2. Place cheese slices on top of the vegetables; 
+Step 3. Place the other slice of bread on top, mayonnaise-side down.
+Phase 3. 
+Step 1. Cut the sandwich in half; 
+Step 2. Serve the sandwich with chips or a side salad; 
+Step 3. Enjoy!
+
+==Test 20/3-3-1==
+Target Task: Fried fish cooking
+Procedures:
+Phase 1. 
+Step 1. Prepare the fish by cleaning and cutting it; 
+Step 2. Place the fish in a bowl and season it with salt, pepper, and other desired spices; 
+Step 3. Heat oil in a pan over medium-high heat.
+Phase 2. 
+Step 1. Dip the fish in a bowl of flour; 
+Step 2. Place the fish in the hot oil and fry for 3-4 minutes on each side; 
+Step 3. Remove the fish from the pan and place it on a plate lined with paper towels to absorb excess oil.
+Phase 3. 
+Step 1. Serve the fried fish with desired sides; 
+Step 2. Enjoy!
+
+==Test 21/3-3-3==
+Target Task: Floor cleaning
+Procedures:
+Phase 1. 
+Step 1. Gather all the necessary cleaning supplies; 
+Step 2. Vacuum the floor to remove any dirt and debris; 
+Step 3. Mop the floor with a damp mop.
+Phase 2. 
+Step 1. Apply a cleaning solution to the floor; 
+Step 2. Scrub the floor with a brush or sponge; 
+Step 3. Rinse the floor with clean water.
+Phase 3. 
+Step 1. Dry the floor with a clean cloth; 
+Step 2. Apply a polish or wax to the floor; 
+Step 3. Buff the floor with a soft cloth.
+
+==Tests 22/3-3-3==
+Target Task: Kitchen table cleaning
+Procedures:
+Phase 1. 
+Step 1. Remove all items from the table; 
+Step 2. Wipe down the surface of the table with a damp cloth; 
+Step 3. Dry the surface of the table with a dry cloth.
+Phase 2. 
+Step 1. Vacuum the area around the table; 
+Step 2. Wipe down the legs of the table with a damp cloth; 
+Step 3. Dry the legs of the table with a dry cloth.
+Phase 3. 
+Step 1. Place all items back on the table; 
+Step 2. Wipe down any items that need to be cleaned; 
+Step 3. Arrange all items in an organized manner.
+
+==Test 23/3-3-3==
+Target Task: Toilet cleaning
+Procedures:
+Phase 1. 
+Step 1. Put on protective gloves; 
+Step 2. Empty the toilet bowl of any water; 
+Step 3. Scrub the toilet bowl with a brush.
+Phase 2. 
+Step 1. Clean the toilet seat and lid with a damp cloth; 
+Step 2. Wipe down the outside of the toilet with a damp cloth; 
+Step 3. Clean the floor around the toilet with a mop.
+Phase 3. 
+Step 1. Apply a disinfectant to the toilet bowl, seat, lid, and surrounding area; 
+Step 2. Flush the toilet to rinse away any remaining debris; 
+Step 3. Dry the toilet bowl, seat, lid, and surrounding area with a clean cloth.
+
+==Test 24/3-3-2==
+Target Task: Window cleaning
+Procedures:
+Phase 1. 
+Step 1. Gather the necessary supplies; 
+Step 2. Prepare the cleaning solution; 
+Step 3. Put on protective gear.
+Phase 2. 
+Step 1. Spray the cleaning solution onto the window; 
+Step 2. Wipe the window with a cloth; 
+Step 3. Rinse the window with clean water.
+Phase 3. 
+Step 1. Dry the window with a clean cloth; 
+Step 2. Inspect the window for any streaks or smudges; 
+Step 3. Polish the window with a clean cloth.
+
+==Test 25/3-3-3==
+Target Task: Fry pan cleaning
+Procedures:
+Phase 1. 
+Step 1. Fill the pan with warm water; 
+Step 2. Add a few drops of dish soap; 
+Step 3. Let the pan soak for 10 minutes.
+Phase 2. 
+Step 1. Scrub the pan with a sponge; 
+Step 2. Rinse the pan with warm water; 
+Step 3. Dry the pan with a clean cloth.
+Phase 3. 
+Step 1. Apply a thin layer of cooking oil to the pan; 
+Step 2. Wipe off any excess oil with a paper towel; 
+Step 3. Store the pan in a dry place.
+
+==Test 26/3-3-3==
+Target Task: Warehouse package picking
+Procedures:
+Phase 1. 
+Step 1. Scan the package barcode; 
+Step 2. Retrieve the package from the shelf; 
+Step 3. Place the package on the conveyor belt.
+Phase 2. 
+Step 1. Scan the package barcode; 
+Step 2. Place the package in the designated box; 
+Step 3. Secure the box with tape.
+Phase 3. 
+Step 1. Scan the box barcode; 
+Step 2. Place the box on the designated pallet; 
+Step 3. Secure the pallet with straps.
+
+==Test 27/3-3-3==
+Target Task: Package wrapping
+Procedures:
+Phase 1. 
+Step 1. Place the item in the center of the wrapping paper; 
+Step 2. Fold the sides of the wrapping paper over the item; 
+Step 3. Secure the sides with tape.
+Phase 2. 
+Step 1. Cut a piece of ribbon to the desired length; 
+Step 2. Tie the ribbon around the package; 
+Step 3. Secure the ribbon with a bow.
+Phase 3. 
+Step 1. Place a gift tag on the package; 
+Step 2. Secure the gift tag with tape; 
+Step 3. Add any additional decorations, if desired.
+
+==Test 28/3-3-3==
+Target Task: Forklift palleting
+Procedures:
+Phase 1. 
+Step 1. Attach the forks to the lift; 
+Step 2. Connect the safety straps to the lift; 
+Step 3. Secure the forks with bolts.
+Phase 2. 
+Step 1. Connect the pallet to the lift; 
+Step 2. Secure the pallet with straps; 
+Step 3. Connect the load to the pallet.
+Phase 3. 
+Step 1. Connect the load to the lift; 
+Step 2. Secure the load with straps; 
+Step 3. Lift and move the pallet to its destination.
+
+==Test 29/3-3-3==
+Target Task: Package foam filling
+Procedures:
+Phase 1. 
+Step 1. Place the item to be packaged in the center of the foam sheet; 
+Step 2. Cut the foam sheet to the size of the item; 
+Step 3. Place the cut foam sheet around the item.
+Phase 2. 
+Step 1. Secure the foam sheet around the item with tape; 
+Step 2. Cut off any excess foam; 
+Step 3. Place the item in a box.
+Phase 3. 
+Step 1. Fill any remaining space in the box with foam filling; 
+Step 2. Secure the box with tape; 
+Step 3. Label the box with shipping information.
+
+==Test 30/3-3-3==
+Target Task: Corrugated box folding
+Procedures:
+Phase 1. 
+Step 1. Place the corrugated box on a flat surface; 
+Step 2. Fold the two sides of the box inwards; 
+Step 3. Secure the sides with tape.
+Phase 2. 
+Step 1. Fold the top and bottom flaps of the box inwards; 
+Step 2. Secure the flaps with tape; 
+Step 3. Fold the corners of the box inwards.
+Phase 3. 
+Step 1. Secure the corners with tape; 
+Step 2. Close the box and secure it with tape; 
+Step 3. Reinforce the box with additional tape if necessary.

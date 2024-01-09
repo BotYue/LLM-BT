@@ -1,0 +1,516 @@
+=OpenAI Davinci=
+=Test on Feb/17/2023 
+
+==Test 1 / 0-9-0==
+Generate a chair assembly task in behavior tree
+
+Sequence:
+
+1. Get the necessary tools and materials
+2. Place the chair frame on a flat surface
+3. Attach the legs to the frame
+4. Secure the legs with screws
+5. Attach the seat to the frame
+6. Secure the seat with screws
+7. Attach the backrest to the frame
+8. Secure the backrest with screws
+9. Add any additional features (armrests, cushions, etc.)
+10. Test the chair for stability
+
+==Test 2 / 0-5-0==
+Generate a desk assembly task in behavior tree
+
+Task: Assemble a Desk
+
+Root Node:
+
+Sequence: Assemble Desk
+
+Child Nodes: 
+
+1. Select Desk Parts 
+2. Gather Tools 
+3. Read Instructions 
+4. Assemble Desk 
+5. Clean Up
+
+==Test 3 / 0-3-0 Failure ==
+Generate a bookcase assembly task in behavior tree
+
+Root:
+
+Sequence:
+
+- Check if all the parts are present
+- Get the tools needed for assembly
+- Read the instructions
+- Assemble the bookcase
+
+==Test 4 / 0-8-0==
+Generate a bed assembly task in behavior tree
+
+Task: Assemble a Bed
+
+Root Node: Sequence
+
+Child Nodes: 
+1. Get Bed Parts 
+2. Lay Out Bed Parts 
+3. Attach Headboard to Frame 
+4. Attach Footboard to Frame 
+5. Attach Side Rails to Frame 
+6. Attach Slats to Side Rails 
+7. Place Mattress on Frame 
+8. Place Bedding on Mattress
+
+==Test 5 / 0-5-0==
+Generate a DSLR camera manufacturing assembly task in behavior tree
+
+Root Node:
+
+Assembly Task
+
+Sequence Node:
+
+1. Gather Parts 
+2. Assemble Camera Body 
+3. Install Lens 
+4. Test Camera 
+5. Package Camera 
+
+Decorator Node: 
+1. Check Quality of Parts 
+2. Check Quality of Assembly 
+3. Check Quality of Testing
+
+==Test 6 / 3-3== 
+Generate a projector manufacturing assembly task in behavior tree
+
+Root:
+
+- Select Task
+  - Assemble Projector
+    - Gather Parts
+      - Retrieve Projector Body
+      - Retrieve Projector Lens
+      - Retrieve Projector Bulb
+    - Assemble Parts
+      - Attach Projector Body to Base
+      - Attach Projector Lens to Body
+      - Insert Projector Bulb into Lens
+    - Test Projector
+      - Connect Power Source
+      - Turn on Projector
+      - Adjust Focus and Brightness
+
+==Test 7 / 0-6-0==
+Generate a LED TV manufacturing assembly task in behavior tree
+
+Root:
+
+Sequence: Assemble LED TV
+
+-Task 1: Gather Parts
+-Task 2: Attach Back Panel
+-Task 3: Connect Wires
+-Task 4: Install Motherboard
+-Task 5: Attach Display Panel
+-Task 6: Connect Speakers
+-Task 7: Test TV
+
+==Test 8 / 4-1-1-1-1==
+Generate a lamp assembly task in behavior tree
+
+Task: Assemble a Lamp
+
+Sequence:
+
+1. Gather Materials: 
+	a. Lamp Base 
+	b. Lamp Shade 
+	c. Light Bulb 
+	d. Screws 
+2. Place Lamp Base on Table 
+3. Attach Light Bulb to Lamp Base 
+4. Attach Lamp Shade to Lamp Base 
+5. Secure Lamp Shade with Screws 
+6. Turn on Lamp and Test
+
+==Test 9 / Failure==
+Generate a ballpen assembly task in behavior tree
+
+Root
+  Sequence
+    Check if ballpen is available
+      Condition
+    Check if ink is available
+      Condition
+    Check if ballpen tip is available
+      Condition
+    Assemble ballpen
+      Action
+
+==Test 10 / 0-4-0==
+Generate a blower fan assembly task in behavior tree
+
+Task: Blower Fan Assembly
+
+-Sequence
+1. Gather necessary tools and materials
+2. Read instructions for assembly
+3. Assemble the fan base
+4. Attach the fan blades
+5. Connect the power cord
+6. Test the fan for proper operation
+
+==Test 11 / 0-6-0==
+Generate a bike assembly task in behavior tree
+
+Task: Assemble a Bike
+
+Root Node:
+
+Sequence
+
+Child Nodes:
+
+1. Check Parts: Check that all parts are present and in good condition.
+
+2. Attach Frame: Attach the frame to the handlebars and seat.
+
+3. Attach Wheels: Attach the wheels to the frame.
+
+4. Attach Brakes: Attach the brakes to the frame and wheels.
+
+5. Attach Pedals: Attach the pedals to the frame.
+
+6. Adjust Seat Height: Adjust the seat height to the rider's preference.
+
+7. Adjust Handlebars: Adjust the handlebars to the rider's preference.
+
+8. Test Ride: Take a test ride to ensure that everything is working properly.
+
+==Test 12 / 1-3==
+Generate a car transmission assembly task in behavior tree
+
+Root:
+
+Sequence: Assemble Transmission
+
+- Select Parts
+- Check Parts for Damage
+- Install Parts
+  - Install Gearbox
+  - Install Clutch
+  - Install Flywheel
+- Test Transmission
+
+==Test 13 / 2-2-2-2==
+Generate a sailboat assembly task in behavior tree
+
+Task: Assemble a Sailboat
+
+Root Node:
+
+Sequence: Assemble Sailboat
+
+Child Nodes:
+
+1. Sequence: Gather Materials 
+  a. Action: Collect sailboat parts 
+  b. Action: Collect tools 
+2. Sequence: Prepare Hull 
+  a. Action: Attach mast to hull 
+  b. Action: Attach boom to mast 
+3. Sequence: Attach Sails 
+  a. Action: Attach mainsail to boom 
+  b. Action: Attach jib to forestay 
+4. Sequence: Rigging and Accessories 
+  a. Action: Attach rigging to mast and boom 
+  b. Action: Attach accessories to hull
+
+==Test 14 / 0-8-0==
+Generate a smartphone assembly task in behavior tree
+
+Root:
+
+Sequence: Assemble Smartphone
+
+Task 1: Gather Parts
+
+Task 2: Connect Motherboard to Battery
+
+Task 3: Connect Motherboard to Display
+
+Task 4: Connect Motherboard to Camera
+
+Task 5: Connect Motherboard to Speaker
+
+Task 6: Connect Motherboard to Microphone
+
+Task 7: Connect Motherboard to Buttons
+
+Task 8: Connect Motherboard to Antenna
+
+Task 9: Test Smartphone
+
+==Test 15 / Failure==
+Generate a DC motor assembly task in behavior tree
+
+Root
+
+-Sequence
+
+--Check Motor Parts
+-Condition: Are all the motor parts present?
+--Yes: Assemble Motor
+-Action: Assemble the motor parts
+--No: Gather Motor Parts
+-Action: Gather the missing motor parts
+
+==Test 16 / 3-3-2-1==
+Generate a coffee making task in behavior tree
+
+-Root Node: Make Coffee
+  -Sequence Node: Gather Supplies
+    -Task Node: Get Coffee Grounds
+    -Task Node: Get Filter
+    -Task Node: Get Water
+  -Sequence Node: Prepare Coffee Maker
+    -Task Node: Fill Coffee Maker with Water
+    -Task Node: Place Filter in Coffee Maker
+    -Task Node: Add Coffee Grounds to Filter
+  -Sequence Node: Brew Coffee
+    -Task Node: Turn on Coffee Maker
+    -Task Node: Wait for Coffee to Finish Brewing
+  -Task Node: Pour Coffee into Cup
+
+==Test 17 / 0-9-0==
+Generate a pizza baking task in behavior tree
+
+Root: Bake Pizza
+
+Sequence:
+
+1. Preheat oven
+2. Prepare pizza dough
+3. Roll out pizza dough
+4. Spread sauce on pizza dough
+5. Add toppings to pizza
+6. Place pizza in oven
+7. Bake pizza for specified time
+8. Remove pizza from oven
+9. Slice and serve pizza
+
+==Test 18 / 0-5-0==
+Generate a sushi making task in behavior tree
+
+Root:
+
+-Sequence
+  -Check if ingredients are available
+  -Get ingredients
+  -Prepare ingredients
+  -Roll sushi
+  -Cut sushi
+  -Serve sushi
+
+==Test 19 / 0-5-0==
+Generate a sandwich making task in behavior tree
+
+Root:
+
+-Sequence
+  -Check if all ingredients are available
+  -Get two slices of bread
+  -Put condiments on the bread
+  -Add the filling
+  -Put the two slices of bread together
+  -Cut the sandwich in half
+
+==Test 20 / 0-8-0==
+Generate a fried fish cooking task in behavior tree
+
+Root:
+
+- Sequence
+  - Check if ingredients are available
+  - Check if kitchen is clean
+  - Check if cooking tools are available
+  - Select a recipe
+  - Prepare ingredients
+  - Heat oil in pan
+  - Place fish in pan
+  - Fry fish for specified time
+  - Flip fish over and fry for specified time
+  - Remove fish from pan and place on plate
+  - Serve
+
+==Test 21 / 0-3-0==
+Generate a floor cleaning task in behavior tree
+
+Sequence
+
+- Check if floor is dirty
+  - If yes, start cleaning
+    - Sweep the floor
+    - Mop the floor
+    - Vacuum the floor
+  - If no, end task
+
+==Test 22 / 0-8-0==
+Generate a kitchen table cleaning task in behavior tree
+
+Sequence
+
+1. Gather cleaning supplies
+2. Clear the table
+3. Wipe down the table with a damp cloth
+4. Apply a cleaning solution to the table
+5. Scrub the table with a sponge
+6. Rinse the table with a damp cloth
+7. Dry the table with a clean cloth
+8. Put away the cleaning supplies
+
+==Test 23 / 0-8-0==
+Generate a toilet cleaning task in behavior tree
+
+Root:
+
+Sequence
+
+Tasks:
+
+1. Gather cleaning supplies (sponge, cleaning solution, etc.)
+2. Put on gloves
+3. Spray cleaning solution on toilet bowl
+4. Scrub toilet bowl with sponge
+5. Flush toilet to rinse
+6. Wipe down toilet seat and lid with cleaning solution and sponge
+7. Dry toilet seat and lid with towel
+8. Dispose of cleaning supplies
+
+==Test 24 / 0-3-0==
+Generate a window cleaning task in behavior tree
+
+Root:
+
+Sequence:
+
+- Check if window cleaning supplies are available
+- Gather window cleaning supplies
+- Clean windows
+- Put away window cleaning supplies
+
+==Test 25 / 0-7-0==
+Generate a fry pan cleaning task in behavior tree
+
+Root: Fry Pan Cleaning
+
+Sequence:
+
+1. Gather Supplies (Sponge, Dish Soap, Hot Water)
+2. Put Fry Pan in Sink
+3. Pour Hot Water into Fry Pan
+4. Add Dish Soap to Hot Water
+5. Use Sponge to Scrub Fry Pan
+6. Rinse Fry Pan with Hot Water
+7. Dry Fry Pan with Towel
+
+==Test 26 / 0-3-0==
+Generate a warehouse package picking task in behavior tree
+
+Task: Pick Warehouse Package
+
+Root Node:
+
+Sequence
+
+Child Nodes:
+
+1. Check Inventory: Check the inventory to see if the package is in stock.
+
+2. Retrieve Package: Retrieve the package from the warehouse.
+
+3. Scan Package: Scan the package to ensure it is the correct item.
+
+4. Pack Package: Pack the package for shipping.
+
+==Test 27 / 2-3-2==
+Generate a package wrapping task in behavior tree
+
+Task: Package Wrapping
+
+Root:
+
+Sequence:
+
+1. Gather Supplies: 
+	a. Check for wrapping paper 
+	b. Check for scissors 
+	c. Check for tape 
+2. Measure and Cut Paper: 
+	a. Measure wrapping paper 
+	b. Cut wrapping paper to size 
+3. Wrap Package: 
+	a. Place package in center of paper 
+	b. Fold sides of paper over package 
+	c. Secure with tape 
+4. Decorate Package: 
+	a. Add ribbon or bows 
+	b. Add gift tags or stickers
+
+==Test 28 / 0-6-0==
+Generate a forklift palleting task in behavior tree
+
+Sequence:
+
+1. Move to pallet location
+2. Lower forks
+3. Lift pallet
+4. Move to storage location
+5. Lower forks
+6. Place pallet in storage location
+
+==Test 29 / 0-3-0==
+Generate a package foam filling task in behavior tree
+
+Task: Generate Foam Filling Package
+
+Preconditions:
+- Foam material is available
+- Package is ready to be filled
+
+Success Conditions:
+- Foam is evenly distributed in the package
+- Package is securely sealed
+
+Failure Conditions:
+- Foam is not evenly distributed in the package
+- Package is not securely sealed
+
+Subtasks: 
+1. Gather foam material 
+2. Place foam material into package 
+3. Securely seal package 
+4. Check for even distribution of foam in package
+
+==Test 30 / Failure == 
+Generate a corrugated box folding task in behavior tree
+
+Task: Generate a Corrugated Box Folding Task
+
+Root Node:
+
+Sequence: Generate Corrugated Box Folding Task
+
+Child Nodes:
+
+1. Select Materials: Select the materials needed to fold the box, such as corrugated cardboard, tape, and scissors.
+
+2. Measure and Cut: Measure and cut the cardboard to the desired size for the box.
+
+3. Fold and Tape: Fold the cardboard along the lines and secure with tape.
+
+4. Check Quality: Check the quality of the box to ensure it is properly folded and taped.
+

@@ -1,0 +1,551 @@
+=OpenAI ChatGPT=
+=Test on Feb/16/2023 
+
+==Test 1 / 0-6-0==
+Generate a chair assembly task in behavior tree
+
+Sequence:
+    1. Move to the box of chair parts.
+    2. Grab the seat of the chair.
+    3. Move the seat to the designated assembly area.
+    4. Attach the legs to the seat.
+    5. Attach the backrest to the seat.
+    6. Move the finished chair to the inspection area.
+    7. Wait for inspection approval.
+
+==Test 2 / 1-3==
+Generate a desk assembly task in behavior tree
+
+Sequence: Assemble Desk
+    Selector: Get Parts
+        Condition: Are parts available?
+        Task: Retrieve desk parts
+    Sequence: Assemble Desk Parts
+        Selector: Assemble Desk Top
+            Condition: Are desk top and legs available?
+            Task: Attach desk legs to desk top
+        Selector: Assemble Drawers
+            Condition: Are drawers available?
+            Task: Attach drawer handles to drawers
+        Selector: Assemble Desk Frame
+            Condition: Is desk frame available?
+            Task: Attach desk frame to desk top and legs
+    Task: Verify Desk Assembly
+
+==Test 3 / Failure==
+Generate a bookcase assembly task in behavior tree
+
+Check for Required Tools:
+If tools are missing, go to step 5.
+If tools are available, go to step 2.
+Unbox and Sort Parts:
+If parts are not sorted, go to step 3.
+If parts are sorted, go to step 4.
+Sort Parts:
+Sort the parts into categories such as shelves, sides, screws, and dowels.
+Once sorting is complete, go to step 4.
+Assemble Bookcase:
+Follow the instructions to assemble the bookcase using the sorted parts.
+Once assembly is complete, go to step 6.
+Acquire Missing Tools:
+Obtain any missing tools needed for assembly.
+Once tools are acquired, go to step 1.
+Inspect Bookcase:
+Check the bookcase for stability and ensure it is assembled correctly.
+If the bookcase is unstable or incorrectly assembled, go to step 4.
+If the bookcase is stable and correctly assembled, assembly is complete.
+
+==Test 4 / 3-3-5==
+Generate a bed assembly task in behavior tree
+
+[ Selector: Assemble Bed ]
+    [ Sequence: Get Tools ]
+        - Check if toolbox is present
+        - If toolbox is not present, go to "Get Toolbox" subtree
+        - Otherwise, go to "Get Bed Parts" subtree
+    [ Subtree: Get Toolbox ]
+        - Move to toolbox location
+        - Pick up toolbox
+        - Return to bed assembly location
+    [ Subtree: Get Bed Parts ]
+        - Move to bed parts location
+        - Pick up bed parts
+        - Return to bed assembly location
+    [ Sequence: Assemble Bed ]
+        - Attach bed frame pieces together
+        - Attach bed slats to frame
+        - Attach headboard and footboard to frame
+        - Attach side rails to frame
+        - Attach bed legs to frame
+    [ Action: Inspect Bed ]
+        - Check for any loose screws or parts
+        - Tighten any loose screws or parts
+    [ Action: Test Bed ]
+        - Apply pressure to bed from different angles
+        - Make sure bed is stable and does not wobble
+    [ Action: Complete Bed Assembly ]
+        - Congratulate user on successful bed assembly
+
+==Test 5 / 1-1-1-1==
+Generate a DSLR camera manufacturing assembly task in behavior tree
+
+SEQUENCE (Camera Assembly):
+    SELECTOR (Attach Lens):
+        CONDITION (Lens Attached):
+            Action (Skip to Next Step)
+        CONDITION (Lens Not Attached):
+            Action (Attach Lens)
+    SELECTOR (Install Battery):
+        CONDITION (Battery Installed):
+            Action (Skip to Next Step)
+        CONDITION (Battery Not Installed):
+            Action (Install Battery)
+    SELECTOR (Insert Memory Card):
+        CONDITION (Memory Card Inserted):
+            Action (Skip to Next Step)
+        CONDITION (Memory Card Not Inserted):
+            Action (Insert Memory Card)
+    SELECTOR (Connect Strap):
+        CONDITION (Strap Connected):
+            Action (Skip to Next Step)
+        CONDITION (Strap Not Connected):
+            Action (Connect Strap)
+    ACTION (Test Camera):
+        CONDITION (Camera Functions Correctly):
+            Action (Complete Camera Assembly)
+        CONDITION (Camera Malfunctions):
+            Action (Troubleshoot and Repair)
+
+==Test 6 / Failure ==
+Generate a projector manufacturing assembly task in behavior tree
+
+Root node:
+
+Sequence: Perform all the following tasks in order.
+Task nodes:
+
+Check parts inventory
+If parts are available, return success.
+If parts are not available, return failure.
+Retrieve parts from inventory
+If parts can be retrieved, return success.
+If parts cannot be retrieved, return failure.
+Assemble projector
+If the projector can be assembled, return success.
+If the projector cannot be assembled, return failure.
+Quality control check
+If the projector passes the quality control check, return success.
+If the projector fails the quality control check, return failure.
+Package the projector
+If the projector can be packaged, return success.
+If the projector cannot be packaged, return failure.
+Ship the projector
+If the projector can be shipped, return success.
+If the projector cannot be shipped, return failure.
+End assembly process
+Always return success.
+
+==Test 7 / 4-3==
+Generate a LED TV manufacturing assembly task in behavior tree
+Root
+
+Sequence: "Assemble LED TV"
+Selector: "Get TV parts"
+Task: "Retrieve TV chassis from storage"
+Task: "Retrieve LED screen from storage"
+Task: "Retrieve control board from storage"
+Task: "Retrieve speakers from storage"
+Sequence: "Attach TV parts"
+Task: "Attach LED screen to chassis"
+Task: "Attach control board to chassis"
+Task: "Attach speakers to chassis"
+Task: "Test TV functionality"
+Task: "Package and ship TV"
+
+==Test 8/ 0-6-0==
+Generate a lamp assembly task in behavior tree
+
+Sequence
+    --> Turn off Power
+    --> Gather Lamp Components
+    --> Assemble Lamp Base
+    --> Attach Lamp Pole
+    --> Add Lampshade
+    --> Turn on Power
+
+==Test 9/ 1-4==
+Generate a ballpen assembly task in behavior tree
+
+Sequence: "Assemble Ballpen"
+Selector: "Check if all parts are available"
+Condition: "Are all parts available?"
+Action: "Get missing parts"
+Sequence: "Assemble the Ballpen"
+Action: "Insert the ink refill"
+Action: "Attach the pen tip"
+Action: "Screw on the pen clip"
+Action: "Put on the pen cap"
+Action: "Test the ballpen"
+
+== Test 10/ 0-6-0==
+Generate a blower fan assembly task in behavior tree
+
+Selector node (Top-level):
+Sequence node (Task sequence):
+Action node: "Get parts"
+Action node: "Assemble fan blades"
+Action node: "Attach blades to hub"
+Action node: "Install motor"
+Action node: "Attach fan guard"
+Action node: "Connect wires"
+Action node: "Test fan"
+Action node: "Pack finished product"
+
+==Test 11 / 4-3 ==
+Generate a bike assembly task in behavior tree
+
+Selector (root node)
+Sequence: Get bike parts
+Check if all necessary bike parts are present
+Pick up bike frame
+Pick up bike wheels
+Pick up handlebars
+Pick up seat
+Sequence: Assemble bike
+Attach wheels to frame
+Attach handlebars to frame
+Attach seat to frame
+Task: Test ride bike
+
+==Test 12 / 7-3-3==
+Generate a car transmission assembly task in behavior tree
+
+Sequence (Assemble Transmission):
+    Selector (Check Parts):
+        Condition (Are Parts Available?)
+        Sequence (Get Parts):
+            Action (Retrieve Transmission Parts)
+            Action (Verify Quality)
+            Action (Move Parts to Assembly Station)
+    Selector (Assemble Transmission):
+        Sequence (Attach Gears):
+            Action (Attach Gear 1)
+            Action (Attach Gear 2)
+            Action (Attach Gear 3)
+            Action (Attach Gear 4)
+            Action (Attach Gear 5)
+            Action (Attach Gear 6)
+            Action (Attach Reverse Gear)
+        Sequence (Attach Clutch):
+            Action (Attach Clutch Plate)
+            Action (Attach Clutch Cover)
+            Action (Tighten Clutch Bolts)
+        Sequence (Attach Transmission Case):
+            Action (Attach Transmission Case Bottom)
+            Action (Attach Transmission Case Top)
+            Action (Tighten Transmission Case Bolts)
+
+==Test 13 /0-4-0==
+Generate a sailboat assembly task in behavior tree
+
+Sequence node: "Assemble Sailboat"
+
+Check if all parts are available
+Check if tools are available
+Assemble the sailboat
+Condition node: "Check parts availability"
+
+Check if all required parts are available
+If yes, return success
+If no, return failure
+Condition node: "Check tool availability"
+
+Check if all required tools are available
+If yes, return success
+If no, return failure
+Action node: "Assemble the sailboat"
+
+Use the tools to connect the mast to the hull
+Attach the sails to the mast
+Connect the rudder to the stern
+Install the oars and paddles
+Inspect the sailboat for any defects
+
+==Test 14 / 0-12-0==
+Generate a smartphone assembly task in behavior tree
+
+Sequence:
+
+Pick up the phone chassis
+Attach the battery to the phone chassis
+Secure the battery in place
+Attach the camera module to the phone chassis
+Attach the display to the phone chassis
+Secure the display in place
+Attach the motherboard to the phone chassis
+Secure the motherboard in place
+Connect the camera module to the motherboard
+Connect the display to the motherboard
+Connect the battery to the motherboard
+Connect the buttons and ports to the motherboard
+Test the phone to ensure it's functioning properly
+Package the phone for shipping
+
+==Test 15/ 4-2-2==
+Generate a DC motor assembly task in behavior tree
+
+Sequence (Assemble DC Motor):
+    Selector (Check for Components):
+        Condition (Are all components present?)
+        Sequence (Get Components):
+            Action (Retrieve motor casing)
+            Action (Retrieve armature)
+            Action (Retrieve commutator)
+            Action (Retrieve brushes)
+    Sequence (Attach Armature):
+        Action (Insert armature into motor casing)
+        Action (Attach commutator to armature shaft)
+    Sequence (Install Brushes):
+        Action (Insert brushes into brush holder)
+        Action (Attach brush holder to motor casing)
+    Action (Attach motor cover to motor casing)
+    Action (Test motor operation)
+
+==Test 16/ 0-4-0==
+Generate a coffee making task in behavior tree
+
+[Selector: Make Coffee]
+- [Sequence: Check Supplies]
+  - [Condition: Check Coffee Grounds] 
+  - [Condition: Check Water] 
+  - [Condition: Check Filter] 
+- [Sequence: Prepare Coffee]
+  - [Task: Boil Water] 
+  - [Task: Grind Coffee Beans] 
+  - [Task: Put Coffee in Filter] 
+  - [Task: Pour Water Over Coffee] 
+- [Task: Enjoy Coffee]
+
+==Test 17/ 1-4-3==
+Generate a pizza baking task in behavior tree
+
+Sequence (Bake Pizza):
+- Selector (Preheat Oven):
+  - Condition (Is Oven Preheated?): Check if oven is preheated to correct temperature.
+  - Action (Preheat Oven): If oven is not preheated, preheat it to the correct temperature.
+
+- Sequence (Prepare Pizza):
+  - Action (Take Pizza Out of Fridge): Remove pizza from the refrigerator.
+  - Action (Unwrap Pizza): Remove the plastic wrap or other packaging from the pizza.
+  - Action (Place Pizza on Pan): Place the pizza on a baking sheet or pizza stone.
+  - Action (Add Toppings): Add desired toppings to the pizza.
+
+- Selector (Bake Pizza):
+  - Condition (Is Pizza Done?): Check if the pizza is cooked through and ready to be removed from the oven.
+  - Sequence (Bake Pizza):
+    - Action (Place Pizza in Oven): Put the pizza in the oven.
+    - Action (Set Timer): Set the timer for the appropriate cooking time.
+  - Action (Remove Pizza from Oven): If the pizza is done, remove it from the oven.
+
+==Test 18/ 2-2-4-2==
+Generate a sushi making task in behavior tree
+
+[Selector]
+
+[Sequence] Check if all ingredients are available
+[Condition] Are all necessary ingredients available?
+[Action] If yes, continue to the next task. If no, stop and wait.
+[Sequence] Make the sushi rice
+[Action] Cook the rice
+[Action] Mix rice vinegar and sugar into the cooked rice
+[Sequence] Prepare the fillings
+[Action] Cut the fish into thin slices
+[Action] Cut the vegetables into thin strips
+[Sequence] Assemble the sushi rolls
+[Action] Place a sheet of nori on the bamboo mat
+[Action] Spread a layer of rice on the nori
+[Action] Add the fillings on top of the rice
+[Action] Roll the mat tightly to form the sushi roll
+[Sequence] Slice the sushi rolls
+[Action] Dip the knife in water
+[Action] Slice the sushi roll into bite-sized pieces
+[Action] Serve the sushi with soy sauce, wasabi, and pickled ginger
+
+==Test 19 / 0-5-0==
+Generate a sandwich making task in behavior tree
+
+Sequence
+    |- Grab Ingredients
+    |- Prepare Ingredients
+    |- Assemble Sandwich
+    |- Cut Sandwich
+    |- Serve Sandwich
+
+==Test 20 / 3-2-2-3==
+Generate a fried fish cooking task in behavior tree
+
+Sequence: Cook Fried Fish
+
+Check ingredients
+
+Is fish available?
+Is flour available?
+Is oil available?
+Prepare fish
+
+Rinse fish in cold water
+Pat fish dry with paper towels
+Season fish with salt and pepper
+Coat fish with flour
+
+Pour flour in a shallow dish
+Dredge fish in flour, shaking off excess
+Heat oil
+
+Pour oil in a frying pan
+Heat oil over medium-high heat until hot
+Fry fish
+
+Carefully place fish in hot oil
+Fry for 2-3 minutes on each side, until golden brown and cooked through
+Use a slotted spoon to remove fish from the pan and transfer to a plate lined with paper towels
+Serve fried fish
+
+Garnish with lemon wedges and chopped parsley
+Serve hot with your choice of side dishes
+
+==Test 21 / 1-1-1-1==
+Generate a floor cleaning task in behavior tree
+
+Selector
+├── Sequence (Check if cleaning supplies are available)
+│   ├── Condition (Are cleaning supplies available?)
+│   └── Action (Retrieve cleaning supplies)
+├── Sequence (Sweep the floor)
+│   ├── Condition (Is the floor dirty?)
+│   └── Action (Sweep the floor)
+├── Sequence (Mop the floor)
+│   ├── Condition (Is the floor still dirty?)
+│   └── Action (Mop the floor)
+└── Action (Put away cleaning supplies)
+
+==Test 22/ 1-2-1==
+Generate a kitchen table cleaning task in behavior tree
+
+SEQUENCE: Clean Kitchen Table
+- TASK: Clear Table
+    - ACTION: Remove all dishes and utensils from the table
+- TASK: Wipe Table
+    - ACTION: Spray table cleaner on the table
+    - ACTION: Use a clean cloth to wipe the table
+- TASK: Replace Items
+    - ACTION: Place clean dishes and utensils back on the table
+
+==Test 23 / 2-2-2-1 ==
+Generate a toilet cleaning task in behavior tree
+
+Sequence (Clean Toilet)
+    Selector (Check Supplies)
+        Condition (Do We Have Supplies?)
+            Action (Get Supplies)
+        Action (Go to the Bathroom)
+    Sequence (Clean Toilet Bowl)
+        Action (Apply Toilet Bowl Cleaner)
+        Wait (5 minutes)
+        Action (Scrub Bowl)
+    Sequence (Clean Toilet Seat and Lid)
+        Action (Apply Surface Cleaner)
+        Action (Wipe Seat and Lid)
+    Action (Empty Trash)
+
+==Test 24 / 0-9-0==
+Generate a window cleaning task in behavior tree
+
+SEQUENCE: Clean Window
+- ACTION: Go to Window
+- ACTION: Open Window
+- ACTION: Retrieve Cleaning Supplies
+- ACTION: Climb Ladder
+- ACTION: Clean Window
+- ACTION: Descend Ladder
+- ACTION: Close Window
+- ACTION: Return Cleaning Supplies
+- ACTION: Go to Next Window
+
+==Test 25 / 0-4-0==
+Generate a fry pan cleaning task in behavior tree
+
+Root
+└── Sequence
+    ├── Check if pan is dirty
+    ├── Apply dish soap to pan
+    ├── Scrub pan with sponge
+    ├── Rinse pan with water
+    ├── Dry pan with towel
+    └── Check if pan is clean
+
+==Test 26 / 0-6-0==
+Generate a warehouse package picking task in behavior tree
+
+SEQUENCE: Warehouse Package Picking Task
+- SELECTOR: Pick a Package
+  - CONDITION: Is there a package to pick?
+    - ACTION: Pick the package
+  - ACTION: Wait for a package to become available
+- ACTION: Navigate to the packaging station
+- ACTION: Package the picked item
+- ACTION: Navigate to the shipping dock
+- ACTION: Deliver the packaged item
+- ACTION: Update the inventory system
+
+==Test 27 / 0-6-0==
+Generate a package wrapping task in behavior tree
+
+Sequence:
+    - Move to package location
+    - Pick up package
+    - Move to wrapping station
+    - Wrap package
+    - Move to shipping area
+    - Drop off package
+
+==Test 28/ 0-9-0==
+Generate a forklift palleting task in behavior tree
+
+Sequence
+    |- MoveToForklift
+    |- LiftPallet
+    |- MoveToPallet
+    |- LowerForks
+    |- ClampPallet
+    |- LiftPallet
+    |- MoveToDestination
+    |- LowerForks
+    |- ReleasePallet
+
+==Test 29/ 0-3-0==
+Generate a package foam filling task in behavior tree
+
+Root
+└── Sequence
+    ├── CheckPackageStatus
+    ├── OpenPackage
+    ├── FillWithFoam
+    ├── ClosePackage
+    ├── VerifyPackageSealed
+    └── ReportStatus
+
+==Test 30/ 2-2-1-1-1-1
+Generate a corrugated box folding task in behavior tree
+
+[Selector] Fold Corrugated Box
+- [Sequence] Open Box
+  - [Action] Unfold Top Flaps
+  - [Action] Unfold Bottom Flaps
+- [Sequence] Make Side Folds
+  - [Action] Fold Left Side Inward
+  - [Action] Fold Right Side Inward
+- [Action] Fold Top Flaps Down
+- [Action] Fold Bottom Flaps Up
+- [Action] Tuck Top Flaps Into Side Flaps
+- [Action] Secure Box With Tape
