@@ -5,4 +5,4 @@ Paper Title: Robot Behavior-Tree-Based Task Generation with Large Language Model
 
 Paper Link: https://ceur-ws.org/Vol-3433/paper4.pdf
 
-Including: Presentation slides, Saved generation results (30 tasks in each file), a help code.
+Including: Presentation slides, Saved generation results (6 files, 30 tasks in each file), a help code.
